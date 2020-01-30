@@ -17,6 +17,13 @@
       Note: directory is your choice! If directory is ommited Git will create a new directory with the name of the repo.</li>
     <li>You're all set! Go to <a href="https://git-scm.com/" target="_blank">Git</a> for lists of commands and specifics..</li>
   </ol>
+  <br/>
+  <p>
+    If you prefer to use a GUI to interact with Git, <a href="https://www.sourcetreeapp.com/" target="_blank">Source Tree</a>
+    is a really nice tool to avoid using a terminal.  <a href="https://www.gitkraken.com/" target="_blank">Git Kraken</a>
+    is personally my favorite GUI for Git, I use it at my internship, but you can only view private repositories with the paid
+    version in GitKraken.
+  </p>
 </div>
 
 <h4>Python:</h4>
