@@ -15,6 +15,29 @@
     <li>Type the command:<br/>
       git clone [url] [directory]<br/>
       Note: directory is your choice! If directory is ommited Git will create a new directory with the name of the repo.</li>
-    <li>You're all set! Go to <a href="https://git-scm.com/">Git</a> for lists of commands and specifics..</li>
+    <li>You're all set! Go to <a href="https://git-scm.com/" target="_blank">Git</a> for lists of commands and specifics..</li>
   </ol>
 </div>
+
+<h4>Python:</h4>
+<div>
+  <p>To run the python files, <a href="https://www.python.org/downloads/" target="_blank">Python</a> must be installed.
+     The link will navigate you where to install python, the most recent version is 3.8.1. When running the installer, 
+     BE SURE to CHECK the checkbox that reads "Set Environment Path Variable" otherwise it will have to be done manually 
+     at somepoint.
+     <br/>
+     <br/>
+     After the installation is complete, you will need to use PIP to install the necessary libraries. This is where its important to
+     have the path variable set, installing python above version 2.7.9 installs pip automatically and sets the path variable. The
+     following commands install the necessary libraries from any terminal:
+  </p>
+  <ul>
+    <li>pip install matplotlib</li>
+    <li>pip install Pillow</li>
+  </ul>
+</div>
+<h4>Links to Python Libraries</h4>
+  <ul>
+    <li><a href="https://matplotlib.org/" target="_blank">MatPlotLib</a></li>
+    <li><a href="https://pillow.readthedocs.io/en/stable/" target="_blank">Pillow</a></li>
+  </ul>
