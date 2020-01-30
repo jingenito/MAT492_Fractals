@@ -30,10 +30,17 @@
 <div>
   <p>To run the python files, <a href="https://www.python.org/downloads/" target="_blank">Python</a> must be installed.
      The link will navigate you where to install python, the most recent version is 3.8.1. When running the installer, 
-     BE SURE to CHECK the checkbox that reads "Set Environment Path Variable" otherwise it will have to be done manually 
-     at somepoint.
-     <br/>
-     <br/>
+     BE SURE to CHECK any checkbox that has anything to do with setting path variables, otherwise it will have to be done 
+     manually at somepoint.
+  </p>
+  <p>
+     You can verify everything installed properly by entering the following commands in the terminal from any directory:
+  </p>
+  <ul>
+    <li>python --version</li>
+    <li>pip --version</li>
+  </ul>
+  <p>
      After the installation is complete, you will need to use PIP to install the necessary libraries. This is where its important to
      have the path variable set, installing python above version 2.7.9 installs pip automatically and sets the path variable. The
      following commands install the necessary libraries from any terminal:
