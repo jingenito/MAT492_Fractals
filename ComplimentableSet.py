@@ -14,6 +14,10 @@ class ComplimentableSet:
         return out_string
 
     def setNewSet(self, interval, _set = []) :
-        self.Set = list(map(math.floor, _set))
-        self.interval = interval
+        self.Set = list(map(ComplimentableSet.intFloor, _set))
+        self.interval = (int(interval[0]), int(interval[1]))
         self.compliment = self.getCompliment()
+    
+    @staticmethod
+    def intFloor(flt) :
+        return int(math.floor(flt))
