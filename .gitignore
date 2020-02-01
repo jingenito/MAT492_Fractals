@@ -1,2 +1,12 @@
 #Matlab auto save files
 *.asv
+
+#Dont want to add images
+*.png
+*.jpeg
+*.jpg
+
+#These changes dont need to be tracked - the folders are only on the repo for structure
+.vscode/
+bin/
+**/__pycache__/
