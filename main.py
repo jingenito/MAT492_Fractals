@@ -1,48 +1,35 @@
 from PIL import Image
 from JSONSerializer import JSONSerializer
-from CantorString import CantorString
+from CantorSet import CantorSet
+from ComplimentableSet import ComplimentableSet
 import math
 
-_resolution = (1920,1080)
-# tested 6 levels works best for 1080p
-cString = CantorString((0, _resolution[0]), 6)
-
-#for debugging
-j = JSONSerializer("bin/cantorString.json")
-j.SerializeJSON(cString.getCantorString())
-
-j = JSONSerializer("bin/cantorSet.json")
-j.SerializeJSON(cString.CantorSet)
-
-j = JSONSerializer("bin/cantorLevels.json")
-j.SerializeJSON(cString.cantorLevels)
-##########################################
-
 # Constants
-_rowHeight = 150
+_black = (0,0,0)
+_white = (255,255,255)
 
-_filename = "bin/cantorString.png"
-_mode = 'RGB'
-_color = (0,0,0)
+def CreatCantorStringImage(resolution, rowRange, filename) :
+    cSet = CantorSet((0, resolution[0]), 6)
+    cString = cSet.get_cantorString()
 
-img = Image.new(_mode, _resolution, _color) 
-pixels = img.load() # Create the pixel map
+    #build Cantor String Image
+    img = Image.new('RGB', resolution, _black) 
+    pixels = img.load() # Create the pixel map
 
-for y in range(img.height):    # For every pixel:
-    imgRow = int(math.floor(y / _rowHeight))
-    #grab the floor of every value in this tier because we need to compare integers
-    cLevel = cString.getCantorLevelString(imgRow)
-
-    for x in range(img.width):
-        if y % _rowHeight >= 25 and y % _rowHeight <= 125 :
-            #draw white if in the cantor set, otherwise draw black
-            if x in cLevel :
-                pixels[x,y] = (255,255,255) 
+    for y in range(img.height):    # For every pixel:
+        for x in range(img.width):
+            if y >= rowRange[0] and y <= rowRange[1] :
+                #draw white if in the cantor set, otherwise draw black
+                if x in cString :
+                    pixels[x,y] = _white 
+                else:
+                    pixels[x,y] = _black
             else:
-                pixels[x,y] = (0,0,0) 
-        else:
-            #draw black inbetween tiers
-            pixels[x,y] = (0,0,0) 
+                #draw black inbetween tiers
+                pixels[x,y] = _black
             
+    img.save(filename)
 
-img.show()
+
+CreatCantorStringImage((1920,1080), (490, 590), "bin/cantorString.png")
+print("Done!")
