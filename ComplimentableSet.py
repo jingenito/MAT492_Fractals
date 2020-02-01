@@ -1,6 +1,6 @@
 import math
 
-class ComplimentableSet():
+class ComplimentableSet:
     """ Provides a class for a list that represents a Mathematical Set of integers to obtain the compliment easily. If the set is non integral
         the floor of each value will be entered by default.
     """

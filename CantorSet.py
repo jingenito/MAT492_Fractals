@@ -1,6 +1,6 @@
 from ComplimentableSet import ComplimentableSet
 
-class CantorSet():
+class CantorSet:
     """ Calling individual methods are only useful for the result, build_cantorSet sets to intended use. """
 
     def __init__(self, interval, tier) :
