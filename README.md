@@ -48,6 +48,7 @@
   <ul>
     <li>pip install matplotlib</li>
     <li>pip install Pillow</li>
+    <li>pip install enum34</li>
   </ul>
 </div>
 <h4>Links to Python Libraries</h4>
