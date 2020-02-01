@@ -1,3 +1,4 @@
+from PIL import Image
 from ComplimentableSet import ComplimentableSet
 
 class CantorSet:
@@ -66,6 +67,28 @@ class CantorSet:
             cSet.sort()
             self._cantorFloatLevels.append(cSet) 
             return self._get_cantorSet(cSet, tier - 1) # recursive step
+    
+    def save_cantorStringImage(self, resolution, rowRange, filename) :
+        """ Call this method to save the current model to the specified filename. Resolution and rowRange will dictate how the 1D image
+            is mapped onto a 2D plane.
+        """
+        img = Image.new('RGB', resolution, (0,0,0)) 
+        pixels = img.load() # Create the pixel map
+        cString = self.get_cantorString() #cache value for the process
+
+        for y in range(img.height):    # For every pixel:
+            for x in range(img.width):
+                if y >= rowRange[0] and y <= rowRange[1] :
+                    #draw white if in the cantor string, otherwise draw black
+                    if x in cString :
+                        pixels[x,y] = (255,255,255)
+                    else:
+                        pixels[x,y] = (0,0,0)
+                else:
+                    #draw black inbetween tiers
+                    pixels[x,y] = (0,0,0)
+            
+        img.save(filename)
 
     def get_cantorSet(self) :
         """ Call this method to get the current CantorSet model as a ComplimentableSet. """
