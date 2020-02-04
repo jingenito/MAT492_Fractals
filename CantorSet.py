@@ -1,5 +1,6 @@
 from PIL import Image
 from ComplimentableSet import ComplimentableSet
+import math
 
 class CantorSet:
 
@@ -105,3 +106,21 @@ class CantorSet:
     def get_cantorLevelstring(self, index) :
         """ Call this method to return the 'Cantor String' associated with the current CantorSet model as a list. """
         return ComplimentableSet(self.interval, self._cantorLevels[index]).get_compliment()
+    
+    def get_maxRepeatedFloorValues(self) :
+        """ For debugging, useful for configuring the tiers to the resolution. - Returns a tuple... (maxCount, repeatCount) """
+        maxCount = 0 #count of max repeated values
+        repeatCount = 0 #amount of all repeated values
+        count = 0
+        array = map(math.floor, self._cantorFloatSet)
+
+        prevX = None
+        for x in array :
+            if x == prevX :
+                count += 1
+                repeatCount += 1
+            else:
+                maxCount = count
+                count = 0
+            prevX = x
+        return (maxCount, repeatCount)
