@@ -17,13 +17,14 @@ class ComplimentableSet:
         return out_string
     
     def get_compliment(self) :
+        """ Call this method to return the compliment of the inner set. """
         return self._compliment
 
     def set_newSet(self, _interval, _set) :
         self._set = list(map(ComplimentableSet.intFloor, _set))
         self._length = len(_set) #cache length for later use
         self._interval = (int(_interval[0]), int(_interval[1]))
-        self._compliment = self.get_compliment()
+        self._compliment = self._get_compliment()
     
     def inner_set(self) :
         return self._set
