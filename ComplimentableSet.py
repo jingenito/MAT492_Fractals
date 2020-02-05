@@ -8,13 +8,16 @@ class ComplimentableSet:
     def __init__(self, _interval, _set) :
         self.set_newSet(_interval, _set)
     
-    def get_compliment(self) :
+    def _get_compliment(self) :
         num_string = range(self._interval[0], self._interval[1] + 1)
         out_string = []
         for x in num_string :
             if not x in self._set :
                 out_string.append(x)
         return out_string
+    
+    def get_compliment(self) :
+        return self._compliment
 
     def set_newSet(self, _interval, _set) :
         self._set = list(map(ComplimentableSet.intFloor, _set))
