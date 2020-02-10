@@ -5,7 +5,7 @@ from ResolutionType import ResolutionType
 class CantorStone:
     """ Class model that implements the 'Cantor String' of the CantorSet model in 2 dimensions at the specified resolution. """
 
-    def __init__(self, resolution, tier) :
+    def __init__(self, resolution : tuple, tier : int) :
         self.resolution = resolution
         self.tier = tier
         self.build_cantorStone()
@@ -48,7 +48,7 @@ class CantorStone:
 
         return bitMap
     
-    def save_image(self, filename) :
+    def save_image(self, filename : str) :
         img = Image.new('RGB', self.resolution, (0,0,0)) 
         pixels = img.load() # Create the pixel map
 
