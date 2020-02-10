@@ -17,14 +17,10 @@ class CantorSet:
         firstLevel = [self.interval[0], self.interval[1]]
         self._cantorFloatLevels.append(firstLevel)
         #calling _get_cantorSet will add the rest of the levels
-        self._cantorFloatSet = self._get_cantorSet(firstLevel, self.tier) #storing for later reference - set to None later if memory is an issue
-
-        self._cantorLevels = [] #initialize the cantor levels of complimentable sets (floor values)
-        for c in self._cantorFloatLevels :
-            cLevel = ComplimentableSet(self.interval, c) #floor values beyond here
-            self._cantorLevels.append(self._draw_CantorLevel(cLevel.inner_set())) 
+        self._cantorFloatSet = self._get_cantorSet(firstLevel, self.tier) #storing for later reference - set to None later if memory is an issue 
 
         self._cantorSet = ComplimentableSet(self.interval, self._cantorFloatSet)
+        self._cantorLevels = { self.tier : self._cantorSet }
 
     #this method will fill in the cantor level
     def _draw_CantorLevel(self, level : list) :
@@ -89,23 +85,35 @@ class CantorSet:
             
         img.save(filename)
 
-    def get_cantorSet(self) :
-        """ Call this method to get the current CantorSet model as a list. """
+    def get_cantorSet(self) -> list :
+        """ Call this method to get the current CantorSet model. """
         return self._cantorSet.inner_set()
 
-    def get_cantorSetLevel(self, index : int) :
-        """ Call this method to get the CantorSet model at the specified index as a list. """
-        return self._cantorLevels[index].inner_set()
+    def get_cantorSetLevel(self, index : int) -> list :
+        """ Call this method to get the CantorSet model at the specified index. """
+        return self._cantorFloatLevels[index]
 
-    def get_cantorString(self) : 
-        """ Call this method to return the 'Cantor String' associated with the current CantorSet model as a list. """
+    def get_cantorString(self) -> list : 
+        """ Call this method to return the 'Cantor String' associated with the current CantorSet model. """
         return self._cantorSet.get_compliment()
 
-    def get_cantorLevelstring(self, index : int) :
+    def _get_cantorLevelString(self, index : int) -> list :
+        """ This method should not be called. """
+        lvl = self._cantorLevels.get(index, None) #only querying the dictionary once
+        cLvlStr = None
+        if lvl == None :
+            lvl = self._draw_CantorLevel(list(map(math.floor, self._cantorFloatLevels[index])))
+
+            cLvl = ComplimentableSet(self.interval, self._draw_CantorLevel(lvl))
+            self._cantorLevels[index] = cLvl #cache the level in the dictionary
+            cLvlStr = cLvl.get_compliment()
+        else: cLvlStr = lvl.get_compliment()
+        return cLvlStr
+    def get_cantorLevelstring(self, index : int) -> list :
         """ Call this method to return the 'Cantor String' associated with the current CantorSet model as a list. """
-        return self._cantorLevels[index].get_compliment()
+        return self._get_cantorLevelString(index)
     
-    def get_maxRepeatedFloorValues(self) :
+    def get_maxRepeatedFloorValues(self) -> tuple :
         """ For debugging, useful for configuring the tiers to the resolution. - Returns a tuple... (maxCount, repeatCount) """
         maxCount = 0 #count of max repeated values
         repeatCount = 0 #amount of all repeated values

@@ -3,6 +3,9 @@ from CantorSet import CantorSet
 from CantorStone import CantorStone
 from ResolutionType import ResolutionType
 
+resolutionLookupTable = { (1920,1080) : 6,
+                          (2560,1440) : 7
+                        }
 _Tiers = 7
 
 def CreateCantorStringImage(resolution, rowRange, filename) :
