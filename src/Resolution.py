@@ -15,10 +15,13 @@ class Resolution:
     def get_height(self) :
         return self.quality(ResolutionType.Height)
 
+    def get_quality(self) -> tuple :
+        return self.quality
+
     def set_quality(self, quality : tuple) :
         self.quality = quality
     
-    def _get_tier(self) :
+    def _get_tier(self) -> int :
         if self.quality == (1920,1080) :
             return 6
         elif self.quality == (2560,1440) :
