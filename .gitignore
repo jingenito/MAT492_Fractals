@@ -2,11 +2,12 @@
 *.asv
 
 #Dont want to add images
+#Maybe change later? Or create a location on Google Drive for images 
+#to save space on the GitHub repo.
 *.png
 *.jpeg
 *.jpg
 
-#These changes dont need to be tracked - the folders are only on the repo for structure
+#These changes dont need to be tracked - user specific files
 .vscode/
-bin/
 **/__pycache__/
