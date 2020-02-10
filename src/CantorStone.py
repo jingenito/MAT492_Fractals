@@ -24,27 +24,27 @@ class CantorStone:
     
     def build_cantorStone(self) :
         """ Call this method to rebuild the model after the resolution and tier is set. """
-        self._xInt = (0, self.resolution[ResolutionType.Width])
-        self._yInt = (0, self.resolution[ResolutionType.Height])
+        _xInt = (0, self.resolution[ResolutionType.Width])
+        _yInt = (0, self.resolution[ResolutionType.Height])
 
-        self._cantorSet_X = CantorSet(self._xInt, self.tier)
-        self._cantorSet_Y = CantorSet(self._yInt, self.tier)
+        self._cantorSet_X = CantorSet(_xInt, self.tier)
+        self._cantorSet_Y = CantorSet(_yInt, self.tier)
 
-        #cache values for later use
-        self._cantorString_X = self._cantorSet_X.get_cantorString()
-        self._cantorString_Y = self._cantorSet_Y.get_cantorString()
         self._cantorStoneBitMap = self._get_cantorStoneMap()
                 
     def _get_cantorStoneMap(self) :
         """ This method should not be called. """
+        xCantorString = self._cantorSet_X.get_cantorString()
+        yCantorString = self._cantorSet_Y.get_cantorString()
+
         bitMap = []
-        for y in range(self._yInt[1]) :
-            if y in self._cantorString_Y :
+        for y in range(self.resolution[ResolutionType.Height]) :
+            if y in yCantorString :
                 bitMap.append([])
-                for x in range(self._xInt[1]) :
-                    bitMap[y].append(1 if x in self._cantorString_X else 0)
+                for x in range(self.resolution[ResolutionType.Width]) :
+                    bitMap[y].append(1 if x in xCantorString else 0)
             else:
-                bitMap.append([0 for x in range(self._xInt[1])]) #add 0 for the entire row if y is not in the y cantor string
+                bitMap.append([0 for x in range(self.resolution[ResolutionType.Width])]) #add 0 for the entire row if y is not in the y cantor string
 
         return bitMap
     
