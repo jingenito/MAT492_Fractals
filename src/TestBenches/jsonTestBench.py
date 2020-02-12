@@ -3,7 +3,7 @@ import os, sys
 app_path = os.path.dirname(os.path.realpath('JSONSerializer.py'))
 sys.path.append(os.path.join(app_path,'src'))
 
-from JSONSerializer import JSONSerializer
+from Util.JSONSerializer import JSONSerializer
 from ComplimentableSet import ComplimentableSet
 
 testSet = [3, 4, 6, 8, 9]

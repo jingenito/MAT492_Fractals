@@ -24,16 +24,12 @@ class ComplimentableSet:
     def set_newSet(self, _interval : tuple, _set : list) :
         """ Call this method to set a new _set. """
         self._set = list(map(ComplimentableSet.intFloor, _set))
-        self._length = len(_set) #cache length for later use
         self._interval = (int(_interval[0]), int(_interval[1]))
         self._compliment = self._get_compliment()
     
     def inner_set(self) :
         """ Call this method to get the current inner set. """
         return self._set
-    
-    def __len__(self) :
-        return len(self._set)
     
     @staticmethod
     def intFloor(flt : float) :
