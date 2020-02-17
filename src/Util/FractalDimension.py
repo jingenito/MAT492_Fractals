@@ -51,10 +51,10 @@ def BoxCountingDimension(filename : str, tol : float) -> float :
         for x in range(res_w) :
             F[y].append(0 if pixels[x,y] == (255,255,255) else 1) 
 
-    delta = 0.1
+    delta = 0.5
     while delta > tol :
         N_del = _calculateBoxCount(F, delta)
-        dim = np.log(N_del) / (-1 * np.log(delta))
-
-        print('Delta: %s, Dimension: %d' % (delta, dim))
-        delta = delta / 10 # decreasing delta by factors of 10
+        dim = float(np.log(N_del) / (-1 * np.log(delta)))
+        
+        print('Delta:', delta, '  Dimension:', dim)
+        delta = delta / 2 # decreasing delta by factors of 10
