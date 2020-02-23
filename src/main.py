@@ -1,4 +1,3 @@
-from JSONSerializer import JSONSerializer
 from CantorSet import CantorSet
 from CantorStone import CantorStone
 from ResolutionType import ResolutionType
