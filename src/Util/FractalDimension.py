@@ -66,13 +66,15 @@ def BoxCountingDimension(filename : str, tol : float) -> float :
         delta = delta / 2
 
     #calculate the loglog data points
-    xs = np.abs(np.log(delta_Seq))
+    xs = -1 * np.log(delta_Seq)
     ys = np.log(N_Seq)
 
     #plot the N sequence
     A = np.vstack([xs, np.ones(len(xs))]).T
     m,b = np.linalg.lstsq(A, ys, None)[0]
     plt.plot(xs,ys,'ro')
+
+    print('Dimension:', m)
 
     #plot the regression line on top of the sequence
     def line(x) : return m*x+b
@@ -83,7 +85,5 @@ def BoxCountingDimension(filename : str, tol : float) -> float :
     plt.xlabel('delta sequence')
     plt.ylabel('N_delta Sequence')
 
-    #print outputs
     plt.show()
-    print('Dimension:', m)
     
