@@ -1,3 +1,4 @@
+from matplotlib import pyplot as plt
 import numpy as np
 from PIL import Image, ImageOps
 
@@ -64,13 +65,25 @@ def BoxCountingDimension(filename : str, tol : float) -> float :
 
         delta = delta / 2
 
-    xs = np.log(delta_Seq)
+    #calculate the loglog data points
+    xs = np.abs(np.log(delta_Seq))
     ys = np.log(N_Seq)
 
+    #plot the N sequence
     A = np.vstack([xs, np.ones(len(xs))]).T
     m,b = np.linalg.lstsq(A, ys, None)[0]
+    plt.plot(xs,ys,'ro')
 
-    print('deltas:', delta_Seq)
-    print('N:', N_Seq)
-    print('Dimension:', -m)
+    #plot the regression line on top of the sequence
+    def line(x) : return m*x+b
+    ys = line(xs)
+    plt.plot(xs,ys)
+
+    #label the plot axes
+    plt.xlabel('delta sequence')
+    plt.ylabel('N_delta Sequence')
+
+    #print outputs
+    plt.show()
+    print('Dimension:', m)
     
