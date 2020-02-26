@@ -1,6 +1,5 @@
 import os, sys
 
-
 app_path = os.path.dirname(os.path.realpath('cantorSetTestBench.py'))
 sys.path.append(os.path.join(app_path,'src'))
 
