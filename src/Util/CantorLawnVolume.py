@@ -26,6 +26,7 @@ def Volume_Epsilon(eps : float) -> float :
         #remaining nice term
         t5 = ((2/3)**(n+1))*3 - (4/9)**n
 
-        sum = t1 + t2 + t3 + t4 + t5
+        #I forgot to add the rest of the sum earlier -_-
+        sum = sum + t1 + t2 + t3 + t4 + t5
 
     return sum

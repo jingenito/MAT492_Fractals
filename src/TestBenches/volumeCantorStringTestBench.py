@@ -2,12 +2,12 @@ import os, sys
 import numpy as np
 from matplotlib import pyplot as plt
 
-app_path = os.path.dirname(os.path.realpath('volumeCantorLawnTestBench.py'))
+app_path = os.path.dirname(os.path.realpath('volumeCantorStringTestBench.py'))
 sys.path.append(os.path.join(app_path,'src'))
 
-import Util.CantorLawnVolume as clv
+import Util.CantorStringVolume as csv
 
-D = (np.log(4) / np.log(3)) - 0.001
+D = np.log(2) / np.log(3)
 delEps = 10**-4
 
 eCount = int(np.floor(0.01 / delEps))
@@ -18,8 +18,8 @@ volSeq = []
 epsAlpha = []
 
 for e in epsSeq :
-    vol = clv.Volume_Epsilon(e)
-    eA = e**(2-D)
+    vol = csv.Volume_Epsilon(e)
+    eA = e**(1-D)
 
     volSeq.append(vol)
     bSeq.append(vol / eA)
@@ -28,7 +28,5 @@ for e in epsSeq :
 plt.plot(epsSeq,bSeq,'r')
 plt.plot(epsSeq,volSeq,'g')
 plt.plot(epsSeq,epsAlpha,'b')
-plt.legend(['V / E**(2-D)','Vols','E**(2-D)'])
+plt.legend(['V / E**(1-D)','Vols','E**(1-D)'])
 plt.show()
-
-
