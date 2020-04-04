@@ -6,7 +6,6 @@ def intFLoor(flt : float) -> int :
     """ Return the numpy floor function already as an integer. """
     return int(np.floor(flt))
 
-#not the finalized formula
 def Volume_Epsilon(eps : float) -> float :
     """ Return the volume formula for the given epsilon. """
     if eps > UPPER_LIMIT : return 0

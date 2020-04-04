@@ -10,7 +10,6 @@ def FractionalPart(flt: float) -> float :
     """ Return the fractional part of a float. ie... flt - Floor(flt) """
     return flt - np.floor(flt)
 
-#not the finalized formula
 def Volume_Epsilon(eps : float) -> float :
     """ Return the volume formula for the given epsilon. """
     if eps > UPPER_LIMIT : return 0
