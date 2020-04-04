@@ -23,14 +23,15 @@ class ComplimentableSet:
 
     def set_newSet(self, _interval : tuple, _set : list) :
         """ Call this method to set a new _set. """
-        self._set = list(map(ComplimentableSet.intFloor, _set))
         self._interval = (int(_interval[0]), int(_interval[1]))
+        self._set = list(map(self.intervalRound, _set))
         self._compliment = self._get_compliment()
     
     def inner_set(self) :
         """ Call this method to get the current inner set. """
         return self._set
     
-    @staticmethod
-    def intFloor(flt : float) :
-        return int(math.floor(flt))
+    def intervalRound(self, flt : float) :
+        """ Rounds the floor based on its position in the interval. """
+        midP = (self._interval[0] + self._interval[1]) / 2
+        return int(math.ceil(flt) if flt >= midP else math.floor(flt))
