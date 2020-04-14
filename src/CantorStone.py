@@ -32,11 +32,7 @@ class CantorStone:
         self._cantorSet_X = CantorSet(_xInt, self.tier)
         self._cantorSet_Y = CantorSet(_yInt, self.tier)
 
-        start = time.time()
         self._cantorStoneBitMap = self._get_cantorStoneMap()
-        finish = time.time()
-
-        print("Time: ", finish - start)
     
     def _get_bitMap(self, string_X : list, string_Y : list) :
         """ This method should not be called. """
