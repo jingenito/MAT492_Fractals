@@ -15,6 +15,10 @@ class CantorStone:
     def get_cantorStone(self) :
         """ Call this method to get an array of the current model. """
         return self._cantorStoneBitMap
+    
+    def get_cantorStoneImage(self) :
+        """ Call this method to return the image of the current model. """
+        return self._get_image(self._cantorStoneBitMap)
 
     def get_cantorString_X(self) :
         """ Call this method to get the Cantor String in the X axis for the current model. """
@@ -84,14 +88,18 @@ class CantorStone:
         self._save_bitMap(filename, self._cantorStoneBitMap)
     
     def _save_bitMap(self, filename : str, bitMap : list) :
+        img = self._get_image(bitMap)
+        img.save(filename)
+
+    def _get_image(self, bitMap : list) -> Image :
         img = Image.new('RGB', self.resolution, (0,0,0)) 
         pixels = img.load() # Create the pixel map
 
         for y in range(self.resolution[ResolutionType.Height]) :
             for x in range(self.resolution[ResolutionType.Width]) :
                 pixels[x,y] = (255,255,255) if bitMap[y][x] == 1 else (0,0,0)
-
-        img.save(filename)
+        
+        return img
 
 
     
