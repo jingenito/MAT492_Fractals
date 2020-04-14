@@ -28,11 +28,23 @@ def CreateCantorLawnGIF(resolution, tier, filename) :
     print("Create Cantor Lawn GIF tier:", tier, "started.")
     images = []
     
+    #initialize variables
+    c = CantorStone(resolution, 0)
+    prevImg = c.get_cantorStoneImage()
+    images.append(prevImg)
+
     for i in range(1, tier + 1) :
         c = CantorStone(resolution, i)
-        img = c.get_cantorStoneImage()
+        currImg = c.get_cantorStoneImage()
+
+        #this is to get a smoother transition between tiers
+        img = Image.blend(prevImg, currImg, 0.5)
         images.append(img)
+
+        images.append(currImg)
         print(float(i / tier) * 100, "%")
+
+        prevImg = currImg
 
     print("Created images, saving the GIF.")
     images[0].save(filename, save_all=True, append_images=images[1:], optimize=False, duration=200, loop=0)
