@@ -1,6 +1,8 @@
 from PIL import Image
 from CantorSet import CantorSet
 from ResolutionType import ResolutionType
+from Util import BinarySearch
+import time
 
 class CantorStone:
     """ Class model that implements the 'Cantor String' of the CantorSet model in 2 dimensions at the specified resolution. """
@@ -30,17 +32,21 @@ class CantorStone:
         self._cantorSet_X = CantorSet(_xInt, self.tier)
         self._cantorSet_Y = CantorSet(_yInt, self.tier)
 
+        start = time.time()
         self._cantorStoneBitMap = self._get_cantorStoneMap()
+        finish = time.time()
+
+        print("Time: ", finish - start)
     
     def _get_bitMap(self, string_X : list, string_Y : list) :
         """ This method should not be called. """
 
         bitMap = []
         for y in range(self.resolution[ResolutionType.Height]) :
-            if y in string_Y :
+            if BinarySearch(string_Y, y) != -1 :
                 bitMap.append([])
                 for x in range(self.resolution[ResolutionType.Width]) :
-                    bitMap[y].append(1 if x in string_X else 0)
+                    bitMap[y].append(1 if BinarySearch(string_X, x) != -1 else 0)
             else:
                 bitMap.append([0 for x in range(self.resolution[ResolutionType.Width])]) #add 0 for the entire row if y is not in the y cantor string
 
