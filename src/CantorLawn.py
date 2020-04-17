@@ -4,21 +4,21 @@ from ResolutionType import ResolutionType
 from Util import BinarySearch
 import time
 
-class CantorStone:
+class CantorLawn:
     """ Class model that implements the 'Cantor String' of the CantorSet model in 2 dimensions at the specified resolution. """
 
     def __init__(self, resolution : tuple, tier : int) :
         self.resolution = resolution
         self.tier = tier
-        self.build_cantorStone()
+        self.build_cantorLawn()
     
-    def get_cantorStone(self) :
+    def get_cantorLawn(self) :
         """ Call this method to get an array of the current model. """
-        return self._cantorStoneBitMap
+        return self._cantorLawnBitMap
     
-    def get_cantorStoneImage(self) :
+    def get_cantorLawnImage(self) :
         """ Call this method to return the image of the current model. """
-        return self._get_image(self._cantorStoneBitMap)
+        return self._get_image(self._cantorLawnBitMap)
 
     def get_cantorString_X(self) :
         """ Call this method to get the Cantor String in the X axis for the current model. """
@@ -28,7 +28,7 @@ class CantorStone:
         """ Call this method to get the Cantor String in the Y axis for the current model. """
         return self._cantorString_Y
     
-    def build_cantorStone(self) :
+    def build_cantorLawn(self) :
         """ Call this method to rebuild the model after the resolution and tier is set. """
         _xInt = (0, self.resolution[ResolutionType.Width])
         _yInt = (0, self.resolution[ResolutionType.Height])
@@ -36,7 +36,7 @@ class CantorStone:
         self._cantorSet_X = CantorSet(_xInt, self.tier)
         self._cantorSet_Y = CantorSet(_yInt, self.tier)
 
-        self._cantorStoneBitMap = self._get_cantorStoneMap()
+        self._cantorLawnBitMap = self._get_cantorLawnMap()
     
     def _get_bitMap(self, string_X : list, string_Y : list) :
         """ This method should not be called. """
@@ -52,7 +52,7 @@ class CantorStone:
 
         return bitMap
                 
-    def _get_cantorStoneMap(self) :
+    def _get_cantorLawnMap(self) :
         """ This method should not be called. """
         return self._get_bitMap(self._cantorSet_X.get_cantorString(), self._cantorSet_Y.get_cantorString()) 
 
@@ -85,7 +85,7 @@ class CantorStone:
         self._save_bitMap(filename,bMap)
 
     def save_image(self, filename : str) :
-        self._save_bitMap(filename, self._cantorStoneBitMap)
+        self._save_bitMap(filename, self._cantorLawnBitMap)
     
     def _save_bitMap(self, filename : str, bitMap : list) :
         img = self._get_image(bitMap)

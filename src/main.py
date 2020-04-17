@@ -1,5 +1,5 @@
 from CantorSet import CantorSet
-from CantorStone import CantorStone
+from CantorLawn import CantorLawn
 from ResolutionType import ResolutionType
 from PIL import Image, ImageDraw
 
@@ -18,10 +18,10 @@ def CreateCantorStringImage(resolution, rowRange, filename) :
 
 def CreateCantorLawnImage(resolution, filename) :
     print("Create Cantor Lawn Image started.")
-    cStone = CantorStone(resolution, _Tiers)
+    cLawn = CantorLawn(resolution, _Tiers)
     print("Created the Cantor Lawn.")
 
-    cStone.save_image(filename)
+    cLawn.save_image(filename)
     print("Saved the Cantor Lawn image.")
 
 def CreateCantorLawnGIF(resolution, tier, filename) :
@@ -29,13 +29,13 @@ def CreateCantorLawnGIF(resolution, tier, filename) :
     images = []
     
     #initialize variables
-    c = CantorStone(resolution, 0)
-    prevImg = c.get_cantorStoneImage()
+    c = CantorLawn(resolution, 0)
+    prevImg = c.get_cantorLawnImage()
     images.append(prevImg)
 
     for i in range(1, tier + 1) :
-        c = CantorStone(resolution, i)
-        currImg = c.get_cantorStoneImage()
+        c = CantorLawn(resolution, i)
+        currImg = c.get_cantorLawnImage()
 
         #this is to get a smoother transition between tiers
         img = Image.blend(prevImg, currImg, 0.5)
