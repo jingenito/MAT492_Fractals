@@ -1,6 +1,7 @@
 from CantorSet import CantorSet
-from CantorStone import CantorStone
+from CantorLawn import CantorLawn
 from ResolutionType import ResolutionType
+from PIL import Image, ImageDraw
 
 resolutionLookupTable = { (1920,1080) : 6,
                           (2560,1440) : 7
@@ -15,18 +16,44 @@ def CreateCantorStringImage(resolution, rowRange, filename) :
     cSet.save_cantorStringImage(resolution, rowRange, filename)
     print("Saved Cantor String image.")
 
-def CreateCantorStoneImage(resolution, filename) :
+def CreateCantorLawnImage(resolution, filename) :
     print("Create Cantor Lawn Image started.")
-    cStone = CantorStone(resolution, _Tiers)
+    cLawn = CantorLawn(resolution, _Tiers)
     print("Created the Cantor Lawn.")
 
-    cStone.save_image(filename)
+    cLawn.save_image(filename)
     print("Saved the Cantor Lawn image.")
 
+def CreateCantorLawnGIF(resolution, tier, filename) :
+    print("Create Cantor Lawn GIF tier:", tier, "started.")
+    images = []
+    
+    #initialize variables
+    c = CantorLawn(resolution, 0)
+    prevImg = c.get_cantorLawnImage()
+    images.append(prevImg)
+
+    for i in range(1, tier + 1) :
+        c = CantorLawn(resolution, i)
+        currImg = c.get_cantorLawnImage()
+
+        #this is to get a smoother transition between tiers
+        img = Image.blend(prevImg, currImg, 0.5)
+        images.append(img)
+
+        images.append(currImg)
+        print(float(i / tier) * 100, "%")
+
+        prevImg = currImg
+
+    print("Created images, saving the GIF.")
+    images[0].save(filename, save_all=True, append_images=images[1:], optimize=False, duration=200, loop=0)
+    print("Created the GIF!")
 
 if __name__ == "__main__":
     print("1: Cantor String")
     print("2: Cantor Lawn")
+    print("3: Cantor Lawn GIF")
 
     inp = input("Choose an image to create:\n")
     if inp.isnumeric() :
@@ -35,7 +62,9 @@ if __name__ == "__main__":
     if mode == 1 :
         CreateCantorStringImage((2560,1440), (670, 770), "images/CantorString.png")
     elif mode == 2 :
-        CreateCantorStoneImage((2560,1440), "images/CantorLawn_Tier6.png")
+        CreateCantorLawnImage((2560,1440), "images/CantorLawn_Tier6.png")
+    elif mode == 3 :
+        CreateCantorLawnGIF((2560,1440), 15, "images/CantorLawnGIF.gif")
     else:
         print("Invalid input.")
 
