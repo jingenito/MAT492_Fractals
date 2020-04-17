@@ -4,9 +4,10 @@ import math
 
 class CantorSet:
 
-    def __init__(self, interval : tuple, tier : int) :
+    def __init__(self, interval : tuple, tier : int, SaveFloatModels = True) :
         self.interval = interval
         self.tier = tier
+        self.saveFloatModels = SaveFloatModels
         self.build_cantorSet()
     
     def build_cantorSet(self) :
@@ -21,6 +22,13 @@ class CantorSet:
 
         self._cantorSet = ComplimentableSet(self.interval, self._cantorFloatSet)
         self._cantorLevels = { self.tier : self._cantorSet }
+
+        #clear resources
+        firstLevel = None
+        if not self.saveFloatModels :
+            self._cantorFloatLevels = None
+            self._cantorFloatSet = None
+
 
     #this method will fill in the cantor level
     def _draw_CantorLevel(self, level : list) :

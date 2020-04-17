@@ -7,9 +7,10 @@ import time
 class CantorLawn:
     """ Class model that implements the 'Cantor String' of the CantorSet model in 2 dimensions at the specified resolution. """
 
-    def __init__(self, resolution : tuple, tier : int) :
+    def __init__(self, resolution : tuple, tier : int, SaveFloatModels = True) :
         self.resolution = resolution
         self.tier = tier
+        self.saveFloatModels = SaveFloatModels
         self.build_cantorLawn()
     
     def get_cantorLawn(self) :
@@ -19,22 +20,14 @@ class CantorLawn:
     def get_cantorLawnImage(self) :
         """ Call this method to return the image of the current model. """
         return self._get_image(self._cantorLawnBitMap)
-
-    def get_cantorString_X(self) :
-        """ Call this method to get the Cantor String in the X axis for the current model. """
-        return self._cantorString_X
-    
-    def get_cantorString_X(self) :
-        """ Call this method to get the Cantor String in the Y axis for the current model. """
-        return self._cantorString_Y
     
     def build_cantorLawn(self) :
         """ Call this method to rebuild the model after the resolution and tier is set. """
         _xInt = (0, self.resolution[ResolutionType.Width])
         _yInt = (0, self.resolution[ResolutionType.Height])
 
-        self._cantorSet_X = CantorSet(_xInt, self.tier)
-        self._cantorSet_Y = CantorSet(_yInt, self.tier)
+        self._cantorSet_X = CantorSet(_xInt, self.tier, self.saveFloatModels)
+        self._cantorSet_Y = CantorSet(_yInt, self.tier, self.saveFloatModels)
 
         self._cantorLawnBitMap = self._get_cantorLawnMap()
     

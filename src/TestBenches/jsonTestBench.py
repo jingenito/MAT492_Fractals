@@ -4,12 +4,12 @@ app_path = os.path.dirname(os.path.realpath('JSONSerializer.py'))
 sys.path.append(os.path.join(app_path,'src'))
 
 from Util.JSONSerializer import JSONSerializer
-from ComplimentableSet import ComplimentableSet
 
-testSet = [3, 4, 6, 8, 9]
-cSet = ComplimentableSet((0,10), testSet)
+testSet = [[[0 for x in range(256)] for y in range(256)] for z in range(256)]
 
-j = JSONSerializer(os.path.join(app_path,'bin','complimentableSetTest.json'))
-j.SerializeJSON(cSet)
+j = JSONSerializer(os.path.join(app_path,'bin','listoflisttest.json'))
 
-print('Done')
+print("Serializing a list of lists...")
+j.SerializeJSON(testSet)
+
+print('Done!')

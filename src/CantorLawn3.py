@@ -20,17 +20,23 @@ class CantorLawn3:
         _zInt = (0, self.resolution[ResolutionType.Depth])
         _xyResolution = (self.resolution[ResolutionType.Width], self.resolution[ResolutionType.Height])
 
-        self._cantorSet_Z = CantorSet(_zInt, self.tier)
-        self._cantorLawn_XY = CantorLawn(_xyResolution, self.tier) #only need to make once since the dimension of the bitmap will never change at any z height
+        cSet_Z = CantorSet(_zInt, self.tier, False)
+        cLawn_XY = CantorLawn(_xyResolution, self.tier, False) #only need to make once since the dimension of the bitmap will never change at any z height
 
-        self._cantorLawnBitMap = self._get_bitMap(self._cantorSet_Z.getCantorString(), self._cantorLawn_XY)
+        self._cantorLawnBitMap = self._get_bitMap(cSet_Z.get_cantorString(), cLawn_XY)
+
+        #clear resources: this model runs out of memory with 16Gb of RAM
+        _zInt = None
+        _xyResolution = None
+        cSet_Z = None
+        cLawn_XY = None
 
     def _get_bitMap(self, string_Z : list, cantorLawn_XY : CantorLawn) :
         """ This method should not be called. """
 
         bitMap = []
         
-        for z in range(self.reslution[ResolutionType.Depth]) :
+        for z in range(self.resolution[ResolutionType.Depth]) :
             if BinarySearch(string_Z, z) != -1 :
                 #append a cantor lawn to the current z value
                 bitMap.append(cantorLawn_XY.get_cantorLawn())
