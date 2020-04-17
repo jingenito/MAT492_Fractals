@@ -31,14 +31,29 @@ def CreateCantorLawnGIF(resolution, tier, filename) :
     #initialize variables
     c = CantorLawn(resolution, 0)
     prevImg = c.get_cantorLawnImage()
-    images.append(prevImg)
 
+    #repeat 0 a few times to slow down the beginning
+    for i in range(3) :
+        images.append(prevImg)
+        
     for i in range(1, tier + 1) :
         c = CantorLawn(resolution, i)
         currImg = c.get_cantorLawnImage()
 
         #this is to get a smoother transition between tiers
-        img = Image.blend(prevImg, currImg, 0.5)
+        img = Image.blend(prevImg, currImg, 0.12)
+        images.append(img)
+        img = Image.blend(prevImg, currImg, 0.25)
+        images.append(img)
+        img = Image.blend(prevImg, currImg, 0.37)
+        images.append(img)
+        img = Image.blend(prevImg, currImg, 0.50)
+        images.append(img)
+        img = Image.blend(prevImg, currImg, 0.63)
+        images.append(img)
+        img = Image.blend(prevImg, currImg, 0.75)
+        images.append(img)
+        img = Image.blend(prevImg, currImg, 0.88)
         images.append(img)
 
         images.append(currImg)
@@ -47,7 +62,7 @@ def CreateCantorLawnGIF(resolution, tier, filename) :
         prevImg = currImg
 
     print("Created images, saving the GIF.")
-    images[0].save(filename, save_all=True, append_images=images[1:], optimize=False, duration=200, loop=0)
+    images[0].save(filename, save_all=True, append_images=images[1:], optimize=False, duration=40, loop=0)
     print("Created the GIF!")
 
 if __name__ == "__main__":
@@ -64,7 +79,7 @@ if __name__ == "__main__":
     elif mode == 2 :
         CreateCantorLawnImage((2560,1440), "images/CantorLawn_Tier6.png")
     elif mode == 3 :
-        CreateCantorLawnGIF((2560,1440), 15, "images/CantorLawnGIF.gif")
+        CreateCantorLawnGIF((2560,1440), 9, "images/CantorLawnGIF.gif")
     else:
         print("Invalid input.")
 
