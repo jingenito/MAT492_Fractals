@@ -1,4 +1,4 @@
-<h1>MAT492_Fractls Repo</h1>
+<h1>MAT492_Fractals Repo</h1>
 
 <h3>MAT 492</h3>
 <h3>Term: Spring 2020</h3>
