@@ -4,3 +4,6 @@
 #These changes dont need to be tracked - user specific files
 .vscode/
 **/__pycache__/
+
+#I found online that these damn .ds_store files are mac related
+*.DS_Store
