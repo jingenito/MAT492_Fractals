@@ -103,6 +103,43 @@ class CantorSet:
         """
         img = self.get_cantorStringImage(resolution, rowRange)
         img.save(filename)
+    
+    def _get_epsilonNeighborhoodLevel(self, cSet : list, epsilon : float) -> list :
+        """ This method should not be called """
+        _relEpsilon = epsilon * self.interval[1] # need to scale epsilon to the resolution of the image
+
+        newList = []
+        indexCount = len(cSet)
+        for x in range(indexCount) :
+            if x % 2 == 1 and x != indexCount - 1 :
+                lvl = range(cSet[x], cSet[x + 1])
+                for c in lvl :
+                    if c < (cSet[x] + _relEpsilon) or c > (cSet[x + 1] - _relEpsilon) :
+                        newList.append(c)
+        return newList
+
+    def get_cantorStringVolumeImage(self, resolution : tuple, rowRange : tuple, epsilon : float) -> Image :
+        """ Call this method to save the volume of the current model. Resolution and rowRange will dictate how the 1D image
+            is mapped onto a 2D plane, epsilon dictates the inner tubular neighborhood used for the volume.
+        """
+        cSet_eps = self._get_epsilonNeighborhoodLevel(self._cantorSet.inner_set(), epsilon)
+
+        img = self.get_cantorStringImage(resolution, rowRange)
+        pixels = img.load() # Create the pixel map
+
+        #color in the volume red
+        for y in range(resolution[ResolutionType.Height]) :
+            if y >= rowRange[0] and y <= rowRange[1] :
+                for x in range(resolution[ResolutionType.Width]) :
+                    if BinarySearch(cSet_eps, x) != -1 :
+                        pixels[x,y] = (255,0,0)
+        
+        return img
+
+    def save_cantorStringVolumeImage(self, resolution : tuple, rowRange : tuple, epsilon : float, filename : str) :
+        """ Call this method to save an image of the innter tubular volume at epsilon of the Cantor String """
+        img = self.get_cantorStringVolumeImage(resolution, rowRange, epsilon)
+        img.save(filename)
 
     def get_cantorSet(self) -> list :
         """ Call this method to get the current CantorSet model. """

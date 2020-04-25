@@ -87,4 +87,12 @@ def CreateCantorStringGIF(resolution : tuple, rowRange : tuple, tier : int, file
     print("Created images, saving the GIF...")
     images[0].save(filename, save_all=True, append_images=images[1:], optimize=False, duration=40, loop=0)
     print("Saved the GIF!")
-    
+
+def CreatCantorStringVolumeImage(resolution : tuple, rowRange : tuple, tier : int, epsilon : float, filename : str) :
+    print("Create Cantor String Volume Image epsilon:", epsilon,"and tier:", tier, "started.")
+    cSet = CantorSet((0, resolution[ResolutionType.Width]), tier)
+    print("Created the Cantor Set.")
+
+    print("Creating the Volume Image")
+    cSet.save_cantorStringVolumeImage(resolution, rowRange, epsilon, filename)
+    print("Saved Cantor String image.")
