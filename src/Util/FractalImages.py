@@ -105,3 +105,59 @@ def CreatCantorLawnVolumeImage(resolution : tuple, tier : int, epsilon : float, 
     print("Creating the Volume Image.")
     cLawn.save_cantorLawnVolumeImage(epsilon, filename)
     print("Saved Cantor Lawn Volume image.")
+
+def CreateCantorStringVolumeGIF(resolution : tuple, rowRange : tuple, tier : int, epsilon : float, filename : str) :
+    print("Create Cantor String Volume GIF Image epsilon:", epsilon,"and tier:", tier, "started.")
+    images = []
+
+    #initialize variables
+    _xInt = (0, resolution[ResolutionType.Width])
+    cSet = CantorSet(_xInt, 0)
+ 
+    prevImg = cSet.get_cantorStringVolumeImage(resolution, rowRange, epsilon)
+
+    #repeat 0 a few times to slow down the beginning
+    for i in range(3) :
+        images.append(prevImg)
+
+    for i in range(1, tier + 1) :
+        cSet = CantorSet(_xInt, i)
+        currImg = cSet.get_cantorStringVolumeImage(resolution, rowRange, epsilon)
+
+        #this is to get a smoother transition between tiers
+        imgList = ImageMods.BlendImages(prevImg, currImg, 10)
+        images.extend(imgList)
+
+        print(float(i / tier) * 100, "%")
+        prevImg = currImg
+    
+    print("Created images, saving the GIF...")
+    images[0].save(filename, save_all=True, append_images=images[1:], optimize=False, duration=40, loop=0)
+    print("Saved the GIF!")
+
+def CreateCantorLawnVolumeGIF(resolution : tuple, tier : int, epsilon : float, filename : str) :
+    print("Create Cantor Lawn Volume GIF tier:", tier, "started.")
+    images = []
+    
+    #initialize variables
+    c = CantorLawn(resolution, 0)
+    prevImg = c.get_cantorLawnVolumeImage(epsilon)
+
+    #repeat 0 a few times to slow down the beginning
+    for i in range(4) :
+        images.append(prevImg)
+        
+    for i in range(1, tier + 1) :
+        c = CantorLawn(resolution, i)
+        currImg = c.get_cantorLawnVolumeImage(epsilon)
+
+        #this is to get a smoother transition between tiers
+        imgList = ImageMods.BlendImages(prevImg, currImg, 10)
+        images.extend(imgList)
+
+        print(float(i / tier) * 100, "%")
+        prevImg = currImg
+
+    print("Created images, saving the GIF...")
+    images[0].save(filename, save_all=True, append_images=images[1:], optimize=False, duration=40, loop=0)
+    print("Saved the GIF!")

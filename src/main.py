@@ -7,6 +7,8 @@ if __name__ == "__main__":
     print("4: Cantor Lawn GIF")
     print("5: Cantor String Volume")
     print("6: Cantor Lawn Volume")
+    print("7: Cantor String Volume GIF")
+    print("8: Cantor Lawn Volume GIF")
 
     inp = input("Choose an image to create:\n")
     if inp.isnumeric() :
@@ -24,6 +26,10 @@ if __name__ == "__main__":
         FractalImages.CreatCantorStringVolumeImage((1000,1000), (450,550), 5, 0.05, "images/CantorStringVolume.png")
     elif mode == 6 :
         FractalImages.CreatCantorLawnVolumeImage((1000,1000), 5, 0.02, "images/CantorLawnVolume.png")
+    elif mode == 7 :
+        FractalImages.CreateCantorStringVolumeGIF((1000,1000), (450,550), 7, 0.05, "images/CantorStringVolumeGIF.gif")
+    elif mode == 8 :
+        FractalImages.CreateCantorLawnVolumeGIF((1000,1000), 7, 0.02, "images/CantorLawnVolumeGIF.gif")
     else:
         print("Invalid input.")
 
