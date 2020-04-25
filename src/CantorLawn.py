@@ -20,6 +20,37 @@ class CantorLawn:
     def get_cantorLawnImage(self) :
         """ Call this method to return the image of the current model. """
         return self._get_image(self._cantorLawnBitMap)
+
+    def get_cantorLawnVolumeImage(self, epsilon : float) -> Image :
+        """ Call this method to get a PIL.Image of the inner tubular neighborhood of the volume at epsilon. """
+        cString_X = self._cantorSet_X.get_cantorString()
+        cString_Y = self._cantorSet_Y.get_cantorString()
+
+        cString_Eps_X = self._cantorSet_X.get_epsilonNeighborhoodLevel(epsilon)
+        cString_Eps_Y = self._cantorSet_Y.get_epsilonNeighborhoodLevel(epsilon)
+
+        img = self.get_cantorLawnImage()
+        pixels = img.load() # Create the pixel map
+
+        #color in the volume red
+        for y in range(self.resolution[ResolutionType.Height]) :
+            if BinarySearch(cString_Y, y) != -1 :
+                for x in range(self.resolution[ResolutionType.Width]) :
+                    if BinarySearch(cString_Eps_X, x) != -1 :
+                        pixels[x,y] = (255,0,0)
+                    
+        for y in range(self.resolution[ResolutionType.Height]) :
+            if BinarySearch(cString_Eps_Y, y) != -1 :
+                for x in range(self.resolution[ResolutionType.Width]) :
+                    if BinarySearch(cString_X, x) != -1 :
+                        pixels[x,y] = (255,0,0)
+        
+        return img
+    
+    def save_cantorLawnVolumeImage(self, epsilon : float, filename : str) :
+        """ Call this method to save an image of the innter tubular volume at epsilon of the Cantor String """
+        img = self.get_cantorLawnVolumeImage(epsilon)
+        img.save(filename)
     
     def build_cantorLawn(self) :
         """ Call this method to rebuild the model after the resolution and tier is set. """
@@ -42,7 +73,7 @@ class CantorLawn:
                     #draw black if in the cantor string, otherwise draw white
                     bitMap[y].append(0 if BinarySearch(string_X, x) != -1 else 1)
             else:
-                bitMap.append([1 for x in range(self.resolution[ResolutionType.Width])]) #draw black for the entire row if y is not in the y cantor string
+                bitMap.append([1 for x in range(self.resolution[ResolutionType.Width])]) #draw white for the entire row if y is not in the y cantor string
 
         return bitMap
                 

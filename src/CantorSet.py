@@ -104,10 +104,14 @@ class CantorSet:
         img = self.get_cantorStringImage(resolution, rowRange)
         img.save(filename)
     
-    def _get_epsilonNeighborhoodLevel(self, cSet : list, epsilon : float) -> list :
+    def get_epsilonNeighborhoodLevel(self, epsilon : float) -> list :
+        """ Call this method to get the epsilon neighborhood of the Cantor String of the current model. """
+        return self._get_epsilonNeighborhoodLevelString(self._cantorSet.inner_set(), epsilon)
+
+    def _get_epsilonNeighborhoodLevelString(self, cSet : list, epsilon : float) -> list :
         """ This method should not be called """
         _relEpsilon = epsilon * self.interval[1] # need to scale epsilon to the resolution of the image
-
+        
         newList = []
         indexCount = len(cSet)
         for x in range(indexCount) :
@@ -122,7 +126,7 @@ class CantorSet:
         """ Call this method to save the volume of the current model. Resolution and rowRange will dictate how the 1D image
             is mapped onto a 2D plane, epsilon dictates the inner tubular neighborhood used for the volume.
         """
-        cSet_eps = self._get_epsilonNeighborhoodLevel(self._cantorSet.inner_set(), epsilon)
+        cString_eps = self._get_epsilonNeighborhoodLevelString(self._cantorSet.inner_set(), epsilon)
 
         img = self.get_cantorStringImage(resolution, rowRange)
         pixels = img.load() # Create the pixel map
@@ -131,7 +135,7 @@ class CantorSet:
         for y in range(resolution[ResolutionType.Height]) :
             if y >= rowRange[0] and y <= rowRange[1] :
                 for x in range(resolution[ResolutionType.Width]) :
-                    if BinarySearch(cSet_eps, x) != -1 :
+                    if BinarySearch(cString_eps, x) != -1 :
                         pixels[x,y] = (255,0,0)
         
         return img

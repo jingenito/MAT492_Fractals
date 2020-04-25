@@ -93,6 +93,15 @@ def CreatCantorStringVolumeImage(resolution : tuple, rowRange : tuple, tier : in
     cSet = CantorSet((0, resolution[ResolutionType.Width]), tier)
     print("Created the Cantor Set.")
 
-    print("Creating the Volume Image")
+    print("Creating the Volume Image.")
     cSet.save_cantorStringVolumeImage(resolution, rowRange, epsilon, filename)
-    print("Saved Cantor String image.")
+    print("Saved Cantor String Volume image.")
+
+def CreatCantorLawnVolumeImage(resolution : tuple, tier : int, epsilon : float, filename : str) :
+    print("Create Cantor Lawn Volume Image epsilon:", epsilon,"and tier:", tier, "started.")
+    cLawn = CantorLawn(resolution, tier)
+    print("Created the Cantor Lawn.")
+
+    print("Creating the Volume Image.")
+    cLawn.save_cantorLawnVolumeImage(epsilon, filename)
+    print("Saved Cantor Lawn Volume image.")
