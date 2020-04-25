@@ -1,85 +1,35 @@
-from CantorSet import CantorSet
-from CantorLawn import CantorLawn
-from ResolutionType import ResolutionType
-from PIL import Image, ImageDraw
-
-resolutionLookupTable = { (1920,1080) : 6,
-                          (2560,1440) : 7
-                        }
-_Tiers = 6
-
-def CreateCantorStringImage(resolution, rowRange, filename) :
-    print("Create Cantor String Image started.")
-    cSet = CantorSet((0, resolution[ResolutionType.Width]), _Tiers)
-    print("Created the Cantor Set.")
-
-    cSet.save_cantorStringImage(resolution, rowRange, filename)
-    print("Saved Cantor String image.")
-
-def CreateCantorLawnImage(resolution, filename) :
-    print("Create Cantor Lawn Image started.")
-    cLawn = CantorLawn(resolution, _Tiers)
-    print("Created the Cantor Lawn.")
-
-    cLawn.save_image(filename)
-    print("Saved the Cantor Lawn image.")
-
-def CreateCantorLawnGIF(resolution, tier, filename) :
-    print("Create Cantor Lawn GIF tier:", tier, "started.")
-    images = []
-    
-    #initialize variables
-    c = CantorLawn(resolution, 0)
-    prevImg = c.get_cantorLawnImage()
-
-    #repeat 0 a few times to slow down the beginning
-    for i in range(3) :
-        images.append(prevImg)
-        
-    for i in range(1, tier + 1) :
-        c = CantorLawn(resolution, i)
-        currImg = c.get_cantorLawnImage()
-
-        #this is to get a smoother transition between tiers
-        img = Image.blend(prevImg, currImg, 0.12)
-        images.append(img)
-        img = Image.blend(prevImg, currImg, 0.25)
-        images.append(img)
-        img = Image.blend(prevImg, currImg, 0.37)
-        images.append(img)
-        img = Image.blend(prevImg, currImg, 0.50)
-        images.append(img)
-        img = Image.blend(prevImg, currImg, 0.63)
-        images.append(img)
-        img = Image.blend(prevImg, currImg, 0.75)
-        images.append(img)
-        img = Image.blend(prevImg, currImg, 0.88)
-        images.append(img)
-
-        images.append(currImg)
-        print(float(i / tier) * 100, "%")
-
-        prevImg = currImg
-
-    print("Created images, saving the GIF.")
-    images[0].save(filename, save_all=True, append_images=images[1:], optimize=False, duration=40, loop=0)
-    print("Created the GIF!")
+import Util.FractalImages as FractalImages
 
 if __name__ == "__main__":
     print("1: Cantor String")
     print("2: Cantor Lawn")
-    print("3: Cantor Lawn GIF")
+    print("3: Cantor String GIF")
+    print("4: Cantor Lawn GIF")
+    print("5: Cantor String Volume")
+    print("6: Cantor Lawn Volume")
+    print("7: Cantor String Volume GIF")
+    print("8: Cantor Lawn Volume GIF")
 
     inp = input("Choose an image to create:\n")
     if inp.isnumeric() :
         mode = int(inp)
 
     if mode == 1 :
-        CreateCantorStringImage((2560,1440), (670, 770), "images/CantorString.png")
+        FractalImages.CreateCantorStringImage((1000,1000), (450,550), 5, "images/CantorString.png")
     elif mode == 2 :
-        CreateCantorLawnImage((2560,1440), "images/CantorLawn_Tier6.png")
+        FractalImages.CreateCantorLawnImage((1000,1000), 5, "images/CantorLawn.png")
     elif mode == 3 :
-        CreateCantorLawnGIF((2560,1440), 9, "images/CantorLawnGIF.gif")
+        FractalImages.CreateCantorStringGIF((1000,1000), (450,550), 7, "images/CantorStringGIF.gif")
+    elif mode == 4 :
+        FractalImages.CreateCantorLawnGIF((1000,1000), 7, "images/CantorLawnGIF.gif")
+    elif mode == 5 :
+        FractalImages.CreatCantorStringVolumeImage((1000,1000), (450,550), 5, 0.05, "images/CantorStringVolume.png")
+    elif mode == 6 :
+        FractalImages.CreatCantorLawnVolumeImage((1000,1000), 5, 0.02, "images/CantorLawnVolume.png")
+    elif mode == 7 :
+        FractalImages.CreateCantorStringVolumeGIF((1000,1000), (450,550), 7, 0.05, "images/CantorStringVolumeGIF.gif")
+    elif mode == 8 :
+        FractalImages.CreateCantorLawnVolumeGIF((1000,1000), 7, 0.02, "images/CantorLawnVolumeGIF.gif")
     else:
         print("Invalid input.")
 

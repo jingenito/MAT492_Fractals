@@ -41,7 +41,7 @@ class CantorLawn3:
                 #append a cantor lawn to the current z value
                 bitMap.append(cantorLawn_XY.get_cantorLawn())
             else:
-                #append a 2d map of 0s
-                bitMap.append([0 for x in range(self.resolution[ResolutionType.Width])] for y in range(self.resolution[ResolutionType.Height]))
+                #append a 2d map of 1s
+                bitMap.append([1 for x in range(self.resolution[ResolutionType.Width])] for y in range(self.resolution[ResolutionType.Height]))
 
         return bitMap

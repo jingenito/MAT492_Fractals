@@ -1,5 +1,8 @@
 from PIL import Image
 from ComplimentableSet import ComplimentableSet
+from ResolutionType import ResolutionType
+import Util.Convert as Convert
+from Util import BinarySearch
 import math
 
 class CantorSet:
@@ -22,6 +25,7 @@ class CantorSet:
 
         self._cantorSet = ComplimentableSet(self.interval, self._cantorFloatSet)
         self._cantorLevels = { self.tier : self._cantorSet }
+        self._cantorString = self._draw_CantorLevel(self._cantorSet.inner_set())
 
         #clear resources
         firstLevel = None
@@ -29,16 +33,16 @@ class CantorSet:
             self._cantorFloatLevels = None
             self._cantorFloatSet = None
 
-
     #this method will fill in the cantor level
-    def _draw_CantorLevel(self, level : list) :
+    def _draw_CantorLevel(self, level : list) -> list :
         """ Should not call this method """
         #if efficiency is becoming an issue, the use of this result really doesnt really 'need' to be sorted per se
         #but its nice to have it sorted for human readability when debugging
         c = []
-        for x in range(len(level)) :
-            if x % 2 == 1 :
-                c.extend(range(level[x - 1], level[x]))
+        indexCount = len(level)
+        for x in range(indexCount) :
+            if x % 2 == 1 and x != indexCount - 1 :
+                c.extend(range(level[x], level[x + 1]))
         c.sort()
         return c
 
@@ -71,26 +75,74 @@ class CantorSet:
             self._cantorFloatLevels.append(cSet) 
             return self._get_cantorSet(cSet, tier - 1) # recursive step
     
+    def _get_cantorStringBitMap(self, resolution : tuple, rowRange : tuple) -> list :
+        """ This method should not be called. """
+        cString = self.get_cantorString() #cache value for the process
+
+        pixels = []
+        for y in range(resolution[ResolutionType.Height]):    # For every pixel:
+            pixels.append([])
+            for x in range(resolution[ResolutionType.Width]):
+                if y >= rowRange[0] and y <= rowRange[1] :
+                    #draw black if in the cantor string, otherwise draw white
+                    pixels[y].append(0 if BinarySearch(cString, x) != -1 else 1)
+                else:
+                    #draw white inbetween tiers
+                    pixels[y].append(1)
+        
+        return pixels
+
+    def get_cantorStringImage(self, resolution : tuple, rowRange : tuple) -> Image :
+        """ Call this method to get a PIL.Image of the Cantor String of the current Cantor Set model. """
+        _bitMap = self._get_cantorStringBitMap(resolution, rowRange)
+        return Convert.BitMapToImage(_bitMap)
+
     def save_cantorStringImage(self, resolution : tuple, rowRange : tuple, filename : str) :
         """ Call this method to save the current model to the specified filename. Resolution and rowRange will dictate how the 1D image
             is mapped onto a 2D plane.
         """
-        img = Image.new('RGB', resolution, (0,0,0)) 
-        pixels = img.load() # Create the pixel map
-        cString = self.get_cantorString() #cache value for the process
+        img = self.get_cantorStringImage(resolution, rowRange)
+        img.save(filename)
+    
+    def get_epsilonNeighborhoodLevel(self, epsilon : float) -> list :
+        """ Call this method to get the epsilon neighborhood of the Cantor String of the current model. """
+        return self._get_epsilonNeighborhoodLevelString(self._cantorSet.inner_set(), epsilon)
 
-        for y in range(img.height):    # For every pixel:
-            for x in range(img.width):
-                if y >= rowRange[0] and y <= rowRange[1] :
-                    #draw white if in the cantor string, otherwise draw black
-                    if x in cString :
-                        pixels[x,y] = (255,255,255)
-                    else:
-                        pixels[x,y] = (0,0,0)
-                else:
-                    #draw black inbetween tiers
-                    pixels[x,y] = (0,0,0)
-            
+    def _get_epsilonNeighborhoodLevelString(self, cSet : list, epsilon : float) -> list :
+        """ This method should not be called """
+        _relEpsilon = epsilon * self.interval[1] # need to scale epsilon to the resolution of the image
+        
+        newList = []
+        indexCount = len(cSet)
+        for x in range(indexCount) :
+            if x % 2 == 1 and x != indexCount - 1 :
+                lvl = range(cSet[x], cSet[x + 1])
+                for c in lvl :
+                    if c < (cSet[x] + _relEpsilon) or c > (cSet[x + 1] - _relEpsilon) :
+                        newList.append(c)
+        return newList
+
+    def get_cantorStringVolumeImage(self, resolution : tuple, rowRange : tuple, epsilon : float) -> Image :
+        """ Call this method to save the volume of the current model. Resolution and rowRange will dictate how the 1D image
+            is mapped onto a 2D plane, epsilon dictates the inner tubular neighborhood used for the volume.
+        """
+        cString_eps = self._get_epsilonNeighborhoodLevelString(self._cantorSet.inner_set(), epsilon)
+
+        img = self.get_cantorStringImage(resolution, rowRange)
+        pixels = img.load() # Create the pixel map
+
+        #color in the volume red
+        for y in range(resolution[ResolutionType.Height]) :
+            if y >= rowRange[0] and y <= rowRange[1] :
+                for x in range(resolution[ResolutionType.Width]) :
+                    if BinarySearch(cString_eps, x) != -1 :
+                        pixels[x,y] = (255,0,0)
+        
+        return img
+
+    def save_cantorStringVolumeImage(self, resolution : tuple, rowRange : tuple, epsilon : float, filename : str) :
+        """ Call this method to save an image of the innter tubular volume at epsilon of the Cantor String """
+        img = self.get_cantorStringVolumeImage(resolution, rowRange, epsilon)
         img.save(filename)
 
     def get_cantorSet(self) -> list :
@@ -103,7 +155,7 @@ class CantorSet:
 
     def get_cantorString(self) -> list : 
         """ Call this method to return the 'Cantor String' associated with the current CantorSet model. """
-        return self._cantorSet.get_compliment()
+        return self._cantorString
 
     def _get_cantorLevelString(self, index : int) -> list :
         """ This method should not be called. """
