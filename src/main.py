@@ -11,13 +11,13 @@ if __name__ == "__main__":
         mode = int(inp)
 
     if mode == 1 :
-        FractalImages.CreateCantorStringImage((2560,1440), (670, 770), 6, "images/CantorString_Tier6.png")
+        FractalImages.CreateCantorStringImage((1000,1000), (670, 770), 6, "images/CantorString_Tier6.png")
     elif mode == 2 :
-        FractalImages.CreateCantorLawnImage((2560,1440), 6, "images/CantorLawn_Tier6.png")
+        FractalImages.CreateCantorLawnImage((1000,1000), 6, "images/CantorLawn_Tier6.png")
     elif mode == 3 :
-        FractalImages.CreateCantorStringGIF((2560,1440), (670, 770), 9, "images/CantorStringGIF.gif")
+        FractalImages.CreateCantorStringGIF((1000,1000), (400,600), 7, "images/CantorStringGIF.gif")
     elif mode == 4 :
-        FractalImages.CreateCantorLawnGIF((2560,1440), 9, "images/CantorLawnGIF.gif")
+        FractalImages.CreateCantorLawnGIF((1000,1000), 7, "images/CantorLawnGIF.gif")
     else:
         print("Invalid input.")
 
