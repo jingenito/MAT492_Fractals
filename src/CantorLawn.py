@@ -39,9 +39,10 @@ class CantorLawn:
             if BinarySearch(string_Y, y) != -1 :
                 bitMap.append([])
                 for x in range(self.resolution[ResolutionType.Width]) :
-                    bitMap[y].append(1 if BinarySearch(string_X, x) != -1 else 0)
+                    #draw black if in the cantor string, otherwise draw white
+                    bitMap[y].append(0 if BinarySearch(string_X, x) != -1 else 1)
             else:
-                bitMap.append([0 for x in range(self.resolution[ResolutionType.Width])]) #add 0 for the entire row if y is not in the y cantor string
+                bitMap.append([1 for x in range(self.resolution[ResolutionType.Width])]) #draw black for the entire row if y is not in the y cantor string
 
         return bitMap
                 
