@@ -122,13 +122,15 @@ class CantorSet:
                         newList.append(c)
         return newList
 
-    def get_cantorStringVolumeImage(self, resolution : tuple, rowRange : tuple, epsilon : float) -> Image :
+    def get_cantorStringVolumeImage(self, resolution : tuple, rowRange : tuple, epsilon : float,  imgProvider : Image = None) -> Image :
         """ Call this method to save the volume of the current model. Resolution and rowRange will dictate how the 1D image
             is mapped onto a 2D plane, epsilon dictates the inner tubular neighborhood used for the volume.
         """
         cString_eps = self._get_epsilonNeighborhoodLevelString(self._cantorSet.inner_set(), epsilon)
 
-        img = self.get_cantorStringImage(resolution, rowRange)
+        img = imgProvider
+        if img == None : 
+            img = self.get_cantorStringImage(resolution, rowRange)
         pixels = img.load() # Create the pixel map
 
         #color in the volume red
