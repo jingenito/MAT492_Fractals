@@ -165,3 +165,12 @@ def CreateCantorLawnVolumeGIF(resolution : tuple, tier : int, epsilon : float, f
     print("Created images, saving the GIF...")
     images[0].save(filename, save_all=True, append_images=images[1:], optimize=False, duration=40, loop=0)
     print("Saved the GIF!")
+
+def CreateCantorLawnVolumeJustVolume(resolution : tuple, tier : int, epsilon : float, filename : str) :
+    print("Create Cantor Lawn Volume Image epsilon:", epsilon,"and tier:", tier, "started.")
+    cLawn = CantorLawn(resolution, tier)
+    print("Created the Cantor Lawn.")
+
+    print("Creating the Volume Image with just the Volume.")
+    cLawn.save_cantorLawnVolumeJustVolumeImage(epsilon, filename)
+    print("Saved Cantor Lawn Volume image.")

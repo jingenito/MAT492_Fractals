@@ -51,6 +51,40 @@ class CantorLawn:
                         pixels[x,y] = (255,0,p[2])
         
         return img
+
+    def get_cantorLawnVolumeImageJustVolume(self, epsilon : float) -> Image :
+        cString_X = self._cantorSet_X.get_cantorString()
+        cString_Y = self._cantorSet_Y.get_cantorString()
+
+        cString_Eps_X = self._cantorSet_X.get_epsilonNeighborhoodLevel(epsilon)
+        cString_Eps_Y = self._cantorSet_Y.get_epsilonNeighborhoodLevel(epsilon)
+
+        img = Image.new('RGB', self.resolution, (255,255,255)) 
+        pixels = img.load() # Create the pixel map
+
+        #color in the heights blue
+        for y in range(self.resolution[ResolutionType.Height]) :
+            if BinarySearch(cString_Y, y) != -1 :
+                for x in range(self.resolution[ResolutionType.Width]) :
+                    if BinarySearch(cString_Eps_X, x) != -1 :
+                        pixels[x,y] = (0,0,255)
+
+        #color in the lengths red         
+        for y in range(self.resolution[ResolutionType.Height]) :
+            if BinarySearch(cString_Eps_Y, y) != -1 :
+                for x in range(self.resolution[ResolutionType.Width]) :
+                    if BinarySearch(cString_X, x) != -1 :
+                        p = pixels[x,y]
+                        if p == (0,0,255) :
+                            pixels[x,y] = (255,0,255)
+                        else:
+                            pixels[x,y] = (255,0,0)
+        
+        return img
+
+    def save_cantorLawnVolumeJustVolumeImage(self, epsilon : float, filename : str) :
+        img = self.get_cantorLawnVolumeImageJustVolume(epsilon)
+        img.save(filename)
     
     def save_cantorLawnVolumeImage(self, epsilon : float, filename : str) :
         """ Call this method to save an image of the innter tubular volume at epsilon of the Cantor String """
