@@ -106,42 +106,45 @@ def CreatCantorLawnVolumeImage(resolution : tuple, tier : int, epsilon : float, 
     cLawn.save_cantorLawnVolumeImage(epsilon, filename)
     print("Saved Cantor Lawn Volume image.")
 
-def CreateCantorStringVolumeGIF(resolution : tuple, rowRange : tuple, tier : int, epsilon : float, filename : str) :
+def CreateCantorStringVolumeGIF(resolution : tuple, rowRange : tuple, tier : int, epsilon : float, filename : str) -> list :
     print("Create Cantor String Volume GIF Image epsilon:", epsilon,"and tier:", tier, "started.")
     images = []
 
     #initialize variables
     _xInt = (0, resolution[ResolutionType.Width])
-    cSet = CantorSet(_xInt, 0)
- 
-    prevImg = cSet.get_cantorStringVolumeImage(resolution, rowRange, epsilon)
+    c = CantorSet(_xInt, tier)
+    completed_img = c.get_cantorStringImage(resolution, rowRange)
+    prevImg = completed_img
 
     #repeat 0 a few times to slow down the beginning
     for i in range(3) :
-        images.append(prevImg)
+        images.append(completed_img)
 
     for i in range(1, tier + 1) :
         cSet = CantorSet(_xInt, i)
-        currImg = cSet.get_cantorStringVolumeImage(resolution, rowRange, epsilon)
+        currImg = cSet.get_cantorStringVolumeImage(resolution, rowRange, epsilon, completed_img.copy())
 
         #this is to get a smoother transition between tiers
         imgList = ImageMods.BlendImages(prevImg, currImg, 10)
         images.extend(imgList)
+        images.append(currImg)
 
         print(float(i / tier) * 100, "%")
         prevImg = currImg
-    
+        
     print("Created images, saving the GIF...")
     images[0].save(filename, save_all=True, append_images=images[1:], optimize=False, duration=40, loop=0)
     print("Saved the GIF!")
+    return images
 
 def CreateCantorLawnVolumeGIF(resolution : tuple, tier : int, epsilon : float, filename : str) :
     print("Create Cantor Lawn Volume GIF tier:", tier, "started.")
     images = []
     
     #initialize variables
-    c = CantorLawn(resolution, 0)
-    prevImg = c.get_cantorLawnVolumeImage(epsilon)
+    c = CantorLawn(resolution, tier)
+    completed_img = c.get_cantorLawnImage()
+    prevImg = completed_img
 
     #repeat 0 a few times to slow down the beginning
     for i in range(4) :
@@ -149,11 +152,12 @@ def CreateCantorLawnVolumeGIF(resolution : tuple, tier : int, epsilon : float, f
         
     for i in range(1, tier + 1) :
         c = CantorLawn(resolution, i)
-        currImg = c.get_cantorLawnVolumeImage(epsilon)
+        currImg = c.get_cantorLawnVolumeImage(epsilon, completed_img.copy())
 
         #this is to get a smoother transition between tiers
         imgList = ImageMods.BlendImages(prevImg, currImg, 10)
         images.extend(imgList)
+        images.append(currImg)
 
         print(float(i / tier) * 100, "%")
         prevImg = currImg
