@@ -13,6 +13,7 @@
 
 \graphicspath{{Images/}}
 \usepackage{movie15}
+\newcommand{\R}{\mathbb{R}}
 
 \begin{document}
 
@@ -29,7 +30,7 @@ A {\bf fractal string} $\mathcal{L}$ is a bounded open subset $\Omega$ of the re
 \pause
 \vspace{.2 in}
 
-$\Omega = \displaystyle\bigcup_{j = 1}^\infty I_j$,\qquad $\displaystyle\text{Vol}_1\left(\Omega\right) = \sum_{j = 1}^\infty \ell_j \implies \lim_{j \to \infty} \ell_j = 0$.
+$\Omega = \displaystyle\bigcup_{j = 1}^\infty \ell_j$,\qquad $\displaystyle\text{Vol}_1\left(\Omega\right) = \sum_{j = 1}^\infty \ell_j \implies \lim_{j \to \infty} \ell_j = 0$.
 
 \pause
 \vspace{.2 in}
@@ -43,9 +44,9 @@ $\ell_1 \geq \ell_2 \geq \ell_3 \geq \cdots \geq 0$
 
 \end{frame}
 
-\begin{frame}{Cantor Lawn GIF}
+\begin{frame}{Cantor String}
 	\begin{center}
-		\animategraphics[loop,controls,width=7cm]{10}{Images/CantorLawnPNG/CantorLawnPNG-}{0}{62}
+		\animategraphics[loop,controls,width=7cm]{10}{Images/CantorStringPNG/CantorStringPNG-}{0}{60}
 	\end{center}
 \end{frame}
 
@@ -79,6 +80,51 @@ $\ell_1 \geq \ell_2 \geq \ell_3 \geq \cdots \geq 0$
 
 \end{frame}
 
+\begin{frame}{Cantor string volume}
+	\begin{center}
+		\animategraphics[loop,controls,width=7cm]{10}{Images/CantorStringVolumePNG/CantorStringVolumePNG-}{0}{60}
+	\end{center}
+\end{frame}
+
+\begin{frame}{Fractal lawn}
+Because a fractal string is a bounded open subset of $\R$, the Cartesian product of two fractal strings is a bounded open subset of $\R^2$.
+
+\pause
+\vspace{.2 in}
+
+	\begin{definition}
+	A {\bf fractal lawn} $\mathcal{L}^2$ is a bounded open subset $\Omega = \{(x,y): x \in \Omega_1$ and $y \in \Omega_2\}$ of $\R^2$.
+	\end{definition}
+	
+\pause
+\vspace{.2 in}
+
+$\Omega_1 = \displaystyle\bigcup_{j = 1}^\infty\ell_j$, $\Omega_2 = \displaystyle\bigcup_{i = 1}^\infty l_i$
+
+$\ell_1 \geq \ell_2 \geq \ell_3 \geq \cdots \geq 0$, $l_1 \geq l_2 \geq l_3 \geq \cdots \geq 0$
+\end{frame}
+
+\begin{frame}{Cantor lawn}
+	\begin{center}
+		\animategraphics[loop,controls,width=7cm]{10}{Images/CantorLawnPNG/CantorLawnPNG-}{0}{60}
+	\end{center}
+\end{frame}
+
+\begin{frame}{Dimension of fractal lawn}
+
+{\bf Inner-tubular neighborhood}:\quad $V(\epsilon) = \text{vol}_2\{x \in \Omega\ |\ d(x,\partial\Omega) < \epsilon\}$
+%we can use the same formula for the inner tubular neighborhood, but the method of calculation changes, because the distance formula changes
+\vspace{.2in}
+
+{\bf Counting functions}:\quad $N_{\Omega_1}(x) = \sum_{\ell_j^{-1} \leq x}$, $N_{\Omega_2}(x) = \sum_{l_j^{-1} \leq x}$
+%we also use the same counting function, but differently
+\end{frame}
+
+\begin{frame}{Cantor Lawn Volume GIF}
+	\begin{center}
+		\animategraphics[loop,controls,width=7cm]{10}{Images/CantorLawnVolumePNG/CantorLawnVolumePNG-}{0}{60}
+	\end{center}
+\end{frame}
 
 \begin{frame}[allowframebreaks]
 \frametitle{References}
