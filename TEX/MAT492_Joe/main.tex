@@ -1,6 +1,6 @@
 \documentclass{if-beamer}
 
-\title[]{Badass Title}
+\title[]{Inner Minkowski Dimension of Products of Fractal Strings}
 \subtitle{}
 \author{Isaac Ashton, Joseph Ingenito, Peter Tonuzi}
 \institute[]{The College of New Jersey}
@@ -9,8 +9,11 @@
 \includegraphics[scale=0.10]{tcnj-logotype-400-200.jpg}
 }
 \subject{MAT 229, Spring 2020} % metadata
+\usepackage{animate}
 
 \graphicspath{{Images/}}
+\usepackage{movie15}
+\newcommand{\R}{\mathbb{R}}
 
 \begin{document}
 
@@ -27,7 +30,7 @@ A {\bf fractal string} $\mathcal{L}$ is a bounded open subset $\Omega$ of the re
 \pause
 \vspace{.2 in}
 
-$\Omega = \displaystyle\bigcup_{j = 1}^\infty I_j$,\qquad $\displaystyle\text{Vol}_1\left(\Omega\right) = \sum_{j = 1}^\infty \ell_j \implies \lim_{j \to \infty} \ell_j = 0$.
+$\Omega = \displaystyle\bigcup_{j = 1}^\infty \ell_j$,\qquad $\displaystyle\text{Vol}_1\left(\Omega\right) = \sum_{j = 1}^\infty \ell_j \implies \lim_{j \to \infty} \ell_j = 0$.
 
 \pause
 \vspace{.2 in}
@@ -39,6 +42,12 @@ $\ell_1 \geq \ell_2 \geq \ell_3 \geq \cdots \geq 0$
 
 {\color{red} Introduce the Cantor string so that the audience can see an example right away. A movie would be nice!}
 
+\end{frame}
+
+\begin{frame}{Cantor String}
+	\begin{center}
+		\animategraphics[loop,controls,width=7cm]{10}{Images/CantorStringPNG/CantorStringPNG-}{0}{60}
+	\end{center}
 \end{frame}
 
 \begin{frame}{Dimension of fractal string}
@@ -63,6 +72,7 @@ $\ell_1 \geq \ell_2 \geq \ell_3 \geq \cdots \geq 0$
 \item[] $D_{\mathcal{L}} = \inf\{\alpha \geq 0\ |\ V(\epsilon) = O(\epsilon^{1 - \alpha})\text{ as }\epsilon \to 0^+\}$ \\
 
 \pause
+\vspace{.2 in}
 
 \item[] Lapidus, van Frankenhuijsen, \cite{lapidus2000fractal, lapidus2003complex, lapidus2012fractal}
 \[ {\color{blue} D_\mathcal{L} = \inf\{\alpha \in \mathbb{R}\ |\ \sum_{j = 1}^\infty \ell_j^{\alpha} < \infty\} \implies 0 < D_{\mathcal{L}} < 1} \]
@@ -71,6 +81,100 @@ $\ell_1 \geq \ell_2 \geq \ell_3 \geq \cdots \geq 0$
 
 \end{frame}
 
+\begin{frame}{Cantor string volume}
+	\begin{center}
+		\animategraphics[loop,controls,width=7cm]{10}{Images/CantorStringVolumePNG/CantorStringVolumePNG-}{0}{60}
+	\end{center}
+\end{frame}
+
+\begin{frame}{Fractal lawn}
+
+	\begin{definition}
+	A {\bf fractal lawn} $\mathcal{L}^2$ is the Cartesian product of two fractal strings $\Omega=\Omega_1\times\Omega_2$.
+	\end{definition}
+	
+	\pause
+	\vspace{.2 in}
+	
+	The Cartesian product of two fractal strings is a bounded open subset of $\R^2$ since a fractal string is a bounded open subset of $\R$.
+	\vspace{.2 in}
+	
+$\Omega_1 = \displaystyle\bigcup_{j = 1}^\infty\ell_j$, $\Omega_2 = \displaystyle\bigcup_{i = 1}^\infty l_i$
+\vspace{.2 in}
+
+$\ell_1 \geq \ell_2 \geq \ell_3 \geq \cdots \geq 0$, $l_1 \geq l_2 \geq l_3 \geq \cdots \geq 0$
+\vspace{.2 in}
+
+\end{frame}
+
+\begin{frame}{Cantor lawn}
+	\begin{center}
+		\animategraphics[loop,controls,width=7cm]{10}{Images/CantorLawnPNG/CantorLawnPNG-}{0}{60}
+	\end{center}
+\end{frame}
+
+\begin{frame}{Dimension of fractal lawn}
+
+{\bf Inner-tubular neighborhood}:\quad $V(\epsilon) = \text{vol}_2\{x \in \Omega\ |\ d(x,\partial\Omega) < \epsilon\}$
+%we can use the same formula for the inner tubular neighborhood, but the method of calculation changes, because the distance formula changes
+
+\begin{itemize}
+	\item $\partial\Omega=(\partial\Omega_1\times\Omega_2)\cup(\Omega_1\times\partial\Omega_2)$
+\end{itemize}
+\vspace{.2in}
+
+{\bf Counting function}: Counts the critical length for any $x > 0$
+\begin{itemize}
+	\item $N_{\Omega_i}(x) = \sum_{j: \ell_j^{-1} \leq x}1$
+\end{itemize}
+\vspace{.2in}
+
+{\bf Useful Definitions}:
+\begin{itemize}
+	\item $\mathcal{W}_i(x)=\sum_{j: \ell_j^{-1} \leq x}\ell_j$
+	\item $\mathcal{L}_i(x)=\sum_{j = 1}^{N_{\Omega_i}(x)}\ell_j=\Omega_i-\mathcal{W}_i(x)$
+\end{itemize}
+
+%$D_{\mathcal{L}} = \inf\{\alpha \geq 0\ |\ V(\epsilon) = O(\epsilon^{2 - \alpha})\text{ as }\epsilon \to 0^+\}$
+
+\end{frame}
+
+
+\begin{frame}{Dimension of fractal lawn}
+	\includegraphics[scale=0.25]{VolumeBox.png}
+	
+	\begin{itemize}
+		\item Partially covered volume
+		\begin{itemize}
+			\item $V_{partial}(\epsilon)=\textcolor{red}{2\epsilon N_{\Omega_1}(\frac{1}{2\epsilon})\mathcal{L}_1(\frac{1}{2\epsilon})} + \textcolor{blue}{2\epsilon N_{\Omega_2}(\frac{1}{2\epsilon})\mathcal{L}_2(\frac{1}{2\epsilon})}$
+		\end{itemize}
+		
+		\item Fully covered volume
+		\begin{itemize}
+			\item $V_{full}(\epsilon)=\textcolor{red}{\Omega_1} \textcolor{blue}{\mathcal{W}_2(\frac{1}{2\epsilon})} + \textcolor{blue}{\Omega_2} \textcolor{red}{\mathcal{W}_1(\frac{1}{2\epsilon})}$
+		\end{itemize}
+		
+		\item Double counted volume
+		\begin{itemize}
+			\item $V_{double}(\epsilon)=\textcolor{red}{\mathcal{W}_1(\frac{1}{2\epsilon})} \textcolor{blue}{\mathcal{W}_2(\frac{1}{2\epsilon})}$
+		\end{itemize}
+	\end{itemize}
+	
+\end{frame}
+
+\begin{frame}{Dimension of fractal lawn}
+	
+	$V(\epsilon)=V_{partial}(\epsilon) + V_{full}(\epsilon) - V_{double}(\epsilon)$
+	
+	$V(\epsilon)=\textcolor{red}{2\epsilon N_{\Omega_1}(\frac{1}{2\epsilon})\mathcal{L}_1(\frac{1}{2\epsilon})} + \textcolor{blue}{2\epsilon N_{\Omega_2}(\frac{1}{2\epsilon})\mathcal{L}_2(\frac{1}{2\epsilon})} + \textcolor{red}{\Omega_1} \textcolor{blue}{\mathcal{W}_2(\frac{1}{2\epsilon})} + \textcolor{blue}{\Omega_2} \textcolor{red}{\mathcal{W}_1(\frac{1}{2\epsilon})} - \textcolor{red}{\mathcal{W}_1(\frac{1}{2\epsilon})} \textcolor{blue}{\mathcal{W}_2(\frac{1}{2\epsilon})}$
+\end{frame}
+
+
+\begin{frame}{Cantor Lawn Volume GIF}
+	\begin{center}
+		\animategraphics[loop,controls,width=7cm]{10}{Images/CantorLawnVolumePNG/CantorLawnVolumePNG-}{0}{60}
+	\end{center}
+\end{frame}
 
 \begin{frame}[allowframebreaks]
 \frametitle{References}
