@@ -9,8 +9,14 @@
 \includegraphics[scale=0.10]{tcnj-logotype-400-200.jpg}
 }
 \subject{MAT 229, Spring 2020} % metadata
+\usepackage{animate}
 
 \graphicspath{{Images/}}
+\usepackage{movie15}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\SL}{\mathcal{L}}
+\newcommand{\Om}{\Omega}
+\newcommand{\W}{\mathcal{W}}
 
 \begin{document}
 
@@ -18,16 +24,18 @@
   \titlepage
 \end{frame}
 
-\begin{frame}{What is a fractal string}
+
+
+\begin{frame}{What is a Fractal String}
 
 \begin{definition}
-A {\bf fractal string} $\mathcal{L}$ is a bounded open subset $\Omega$ of the real line.
+A {\bf fractal string} $\Om$ is a bounded open subset of the real line.
 \end{definition}
 
 \pause
 \vspace{.2 in}
 
-$\Omega = \displaystyle\bigcup_{j = 1}^\infty I_j$,\qquad $\displaystyle\text{Vol}_1\left(\Omega\right) = \sum_{j = 1}^\infty \ell_j \implies \lim_{j \to \infty} \ell_j = 0$.
+$\Omega = \displaystyle\bigcup_{j = 1}^\infty \ell_j$,\qquad $\displaystyle \SL = \text{Vol}_1\left(\Omega\right) = \sum_{j = 1}^\infty \ell_j \implies \lim_{j \to \infty} \ell_j = 0$.
 
 \pause
 \vspace{.2 in}
@@ -37,40 +45,110 @@ $\ell_1 \geq \ell_2 \geq \ell_3 \geq \cdots \geq 0$
 \pause
 \vspace{.2 in}
 
-{\color{red} Introduce the Cantor string so that the audience can see an example right away. A movie would be nice!}
+The fractal string we studied the most in particular is the {\bf Cantor String}
 
 \end{frame}
 
-\begin{frame}{Dimension of fractal string}
 
+
+\begin{frame}{Cantor String}
+	\begin{center}
+		\animategraphics[loop,controls,width=7cm]{10}{Images/CantorStringPNG/CantorStringPNG-}{0}{60}
+	\end{center}
+\end{frame}
+
+
+
+\begin{frame}{Inner-Tubular Neighborhood}
+
+\begin{definition}
 {\bf Inner-tubular neighborhood}:\quad $V(\epsilon) = \text{vol}_1\{x \in \Omega\ |\ d(x,\partial\Omega) < \epsilon\}$
+\end{definition}
 
 \pause
 \vspace{.2 in}
 
-{\color{red} Use a movie of the Cantor String to illustrate the volume formula!}
+{\bf Counting function}:$\displaystyle \quad N_{\Omega}(x) = \sum_{\ell_j^{-1} \leq x}1$
 
-\pause
 \vspace{.2 in}
 
-{\bf Counting function}:\quad $N_{\Omega}(x) = \sum_{\ell_j^{-1} \leq x}$
+{\bf More Notation}: $\displaystyle \quad \W_\Om(x) = \sum_{j:\ell_j^{-1} > x}{\ell_j}$
 
+\vspace{.2 in}
 
-
-
-
-\begin{enumerate}
-\item[] $D_{\mathcal{L}} = \inf\{\alpha \geq 0\ |\ V(\epsilon) = O(\epsilon^{1 - \alpha})\text{ as }\epsilon \to 0^+\}$ \\
-
-\pause
-
-\item[] Lapidus, van Frankenhuijsen, \cite{lapidus2000fractal, lapidus2003complex, lapidus2012fractal}
-\[ {\color{blue} D_\mathcal{L} = \inf\{\alpha \in \mathbb{R}\ |\ \sum_{j = 1}^\infty \ell_j^{\alpha} < \infty\} \implies 0 < D_{\mathcal{L}} < 1} \]
-\end{enumerate}
-
+{\bf Now we can write}: $V(\epsilon) = 2\epsilon \cdot N_\Om\left(\frac{1}{2\epsilon}\right) + \W_\Om\left(\frac{1}{2\epsilon}\right)$
 
 \end{frame}
 
+
+
+\begin{frame}{Cantor String Volume}
+	\begin{center}
+		\animategraphics[loop,controls,width=7cm]{10}{Images/CantorStringVolumePNG/CantorStringVolumePNG-}{0}{60}
+	\end{center}
+\end{frame}
+
+
+
+\begin{frame}{Inner Minkowski Dimension of a Fractal String}
+
+\begin{definition}
+{\bf Dimension of $\Om$}: $D_\Om =\text{inf}\left\{ \alpha \geq 0\ |\ V(\epsilon)=O\left(\epsilon^{1-\alpha}\right) \text{as  } \epsilon \rightarrow 0^{+}\right\}$
+\end{definition}
+
+\pause
+\vspace{.2 in}
+
+{\bf In other terms}: $D_\Om = \text{the smallest  }\alpha \text{ st } \displaystyle \lim_{\epsilon \to 0^{+}} \frac{V(\epsilon)}{\epsilon^{1-\alpha}}=c, \ c\in \mathbb{R}$
+
+\pause
+\vspace{.2 in}
+
+{\bf Cantor String Dimension}: $D_{cs} = \log_3 2$
+
+\end{frame}
+
+
+
+\begin{frame}{Fractal lawn}
+Because a fractal string is a bounded open subset of $\R$, the Cartesian product of two fractal strings is a bounded open subset of $\R^2$.
+
+\pause
+\vspace{.2 in}
+
+	\begin{definition}
+	A {\bf fractal lawn} $\mathcal{L}^2$ is a bounded open subset $\Omega = \{(x,y): x \in \Omega_1$ and $y \in \Omega_2\}$ of $\R^2$.
+	\end{definition}
+	
+\pause
+\vspace{.2 in}
+
+$\Omega_1 = \displaystyle\bigcup_{j = 1}^\infty\ell_j$, $\Omega_2 = \displaystyle\bigcup_{i = 1}^\infty l_i$
+
+$\ell_1 \geq \ell_2 \geq \ell_3 \geq \cdots \geq 0$, $l_1 \geq l_2 \geq l_3 \geq \cdots \geq 0$
+\end{frame}
+
+\begin{frame}{Cantor lawn}
+	\begin{center}
+		\animategraphics[loop,controls,width=7cm]{10}{Images/CantorLawnPNG/CantorLawnPNG-}{0}{60}
+	\end{center}
+\end{frame}
+
+\begin{frame}{Dimension of fractal lawn}
+
+{\bf Inner-tubular neighborhood}:\quad $V(\epsilon) = \text{vol}_2\{x \in \Omega\ |\ d(x,\partial\Omega) < \epsilon\}$
+%we can use the same formula for the inner tubular neighborhood, but the method of calculation changes, because the distance formula changes
+\vspace{.2in}
+
+{\bf Counting functions}:\quad $N_{\Omega_1}(x) = \sum_{\ell_j^{-1} \leq x}$, $N_{\Omega_2}(x) = \sum_{l_j^{-1} \leq x}$
+%we also use the same counting function, but differently
+\end{frame}
+
+\begin{frame}{Cantor Lawn Volume GIF}
+	\begin{center}
+		\animategraphics[loop,controls,width=7cm]{10}{Images/CantorLawnVolumePNG/CantorLawnVolumePNG-}{0}{60}
+	\end{center}
+\end{frame}
 
 \begin{frame}[allowframebreaks]
 \frametitle{References}
@@ -186,3 +264,4 @@ Ph. D. Dissertation, University of California, Riverside, 2019.
 
 
 \end{document}
+
