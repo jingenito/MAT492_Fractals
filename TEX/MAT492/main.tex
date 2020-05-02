@@ -17,7 +17,10 @@
 \newcommand{\SL}{\mathcal{L}}
 \newcommand{\Om}{\Omega}
 \newcommand{\W}{\mathcal{W}}
-
+\DeclareMathAlphabet{\mathpzc}{OT1}{pzc}{m}{it}
+\newcommand{\p}{\mathpzc{p}}
+\newcommand{\q}{\mathpzc{q}}
+\newcommand{\z}{\mathpzc{z}}
 \begin{document}
 
 \begin{frame}
@@ -108,6 +111,99 @@ The fractal string we studied the most in particular is the {\bf Cantor String}
 
 \end{frame}
 
+
+
+%begin Peter's part
+\begin{frame}{3 Dimensional Fractal Objects}
+
+        \begin{figure}
+            \includegraphics[height=2cm,width=2cm]{3dfractal_1.png}
+            \hfill
+            \includegraphics[height=2cm,width=2cm]{3dfractal_2.png}
+            \hfill
+            \includegraphics[height=2cm,width=2cm]{3dfractal_3.png}
+            \hfill
+            \includegraphics[height=2cm,width=2cm]{3dfractal_4.png}
+            \hfill
+            \includegraphics[height=2cm,width=2cm]{3dfractal_5}
+        \end{figure}
+        
+        
+$V(\epsilon) = \textcolor{red}{2\epsilon\cdot N_{\Omega_1}(\frac{1}{2\epsilon}) \cdot \left( \sum_{j=1}^{{N_{\Omega_2}}(\frac{1}{2\epsilon})}\p_j \right) \cdot \left( \sum_{j=1}^{{N_{\Omega_3}}(\frac{1}{2\epsilon})}\q_j \right)} +$
+$$ \textcolor{blue}{2\epsilon\cdot N_{\Omega_2}(\frac{1}{2\epsilon}) \cdot \left( \sum_{j=1}^{{N_{\Omega_1}}(\frac{1}{2\epsilon})}\ell_j - 2\epsilon \right) \cdot \left( \sum_{j=1}^{{N_{\Omega_3}}(\frac{1}{2\epsilon})}\q_j \right)} + $$
+$$\textcolor{yellow}{2\epsilon\cdot N_{\Omega_3}(\frac{1}{2\epsilon}) \cdot \left( \sum_{j=1}^{{N_{\Omega_2}}(\frac{1}{2\epsilon})}\p_j - 2\epsilon \right) \cdot \left( \sum_{j=1}^{{N_{\Omega_1}}(\frac{1}{2\epsilon})}\ell_j - 2\epsilon \right)} $$
+$+ \W_1\SL_2\SL_3 + \SL_1\W_2\SL_3 + \SL_1\SL_2\W_3 - \SL_1\W_2\W_3 - \W_1\SL_2\W_3 - $
+
+$$\W_1\W_2\SL_3 + \W_1\W_2\W_3$$
+
+\end{frame}
+
+\begin{frame}{3 Dimensional Fractal Volume}
+$V(\epsilon) = N_{\Omega_1}\cdot(\SL_2-\W_3)\cdot(\SL_3-\W_3) + N_{\Omega_2}\cdot(\SL_1-\W_1-2\epsilon\cdot N_1)\cdot(\SL_3-\W_3) + N_{\Omega_3}\cdot(\SL_2-\W_2-2\epsilon\cdot N_2)\cdot(\SL_3-\W_3-2\epsilon\cdot N_3) + \W_1\SL_2\SL_3 + \SL_1\W_2\SL_3 + \SL_1\SL_2\W_3 - \SL_1\W_2\W_3 - \W_1\SL_2\W_3 - \W_1\W_2\SL_3 + \W_1\W_2\W_3$
+
+\pause
+\vspace{.2in}
+
+$V(\epsilon) = \SL_1\SL_2V_3(\epsilon) + \SL_1V_2(\epsilon)\SL_3 + V_1(\epsilon)\SL_2\SL_3 - V_1(\epsilon)V_2(\epsilon)\SL_3 - V_1(\epsilon)\SL_2V_3(\epsilon)-\SL_1V_2(\epsilon)V_3(\epsilon) + V_1(\epsilon)V_2(\epsilon)V_3(\epsilon)$
+\end{frame}
+
+\begin{frame}{4 Dimensional Fractal Objects}
+$V(\epsilon) = 2\epsilon\cdot N_{\Omega_1}(\frac{1}{2\epsilon}) \cdot \left( \sum_{j=1}^{{N_{\Omega_2}}(\frac{1}{2\epsilon})}\p_j \right) \cdot \left( \sum_{j=1}^{{N_{\Omega_3}}(\frac{1}{2\epsilon})}\q_j \right) \cdot \left( \sum_{j=1}^{{N_{\Omega_4}}(\frac{1}{2\epsilon})}\z_j \right) + 2\epsilon\cdot N_{\Omega_2}(\frac{1}{2\epsilon}) \cdot \left( \sum_{j=1}^{{N_{\Omega_1}}(\frac{1}{2\epsilon})}\ell_j - 2\epsilon \right) \cdot \left( \sum_{j=1}^{{N_{\Omega_3}}(\frac{1}{2\epsilon})}\q_j \right) \cdot \left( \sum_{j=1}^{{N_{\Omega_4}}(\frac{1}{2\epsilon})}\z_j \right) + 2\epsilon\cdot N_{\Omega_3}(\frac{1}{2\epsilon}) \cdot \left( \sum_{j=1}^{{N_{\Omega_2}}(\frac{1}{2\epsilon})}\p_j - 2\epsilon \right) \cdot \left( \sum_{j=1}^{{N_{\Omega_1}}(\frac{1}{2\epsilon})}\ell_j - 2\epsilon \right) \cdot \left( \sum_{j=1}^{{N_{\Omega_4}}(\frac{1}{2\epsilon})}\z_j \right) + 2\epsilon\cdot N_{\Omega_4}(\frac{1}{2\epsilon}) \cdot \left( \sum_{j=1}^{{N_{\Omega_2}}(\frac{1}{2\epsilon})}\p_j - 2\epsilon \right) \cdot \left( \sum_{j=1}^{{N_{\Omega_1}}(\frac{1}{2\epsilon})}\ell_j - 2\epsilon \right) \cdot \left( \sum_{j=1}^{{N_{\Omega_3}}(\frac{1}{2\epsilon})}\q_j - 2\epsilon \right) + \W_1\SL_2\SL_3\SL_4 + \SL_1\W_2\SL_3\SL_4 + \SL_1\SL_2\W_3\SL_4 + \SL_1\SL_2\SL_3\W_4 - \SL_1\SL_2\W_3\W_4 - \SL_1\W_2\SL_3\W_4 - \SL_1\W_2\W_3\SL_4 - \W_1\SL_2\SL_3\W_4 - \W_1\SL_2\W_3\SL_4 - \W_1\W_2\SL_3\SL_4 + \SL_1\W_2\W_3\W_4 + \W_1\SL_2\W_3\W_4 + \W_1\W_2\SL_3\W_4 + \W_1\W_2\W_3\SL_4 - \W_1\W_2\W_3\W_4$
+\end{frame}
+
+\begin{frame}{4 Dimensional Volume Formula}
+$V^4(\epsilon) = \SL_1\SL_2\SL_3V_4(\epsilon) + \SL_1\SL_2V_3(\epsilon)\SL_4 + \SL_1V_2(\epsilon)\SL_3\SL_4 + V_1(\epsilon)\SL_2\SL_3\SL_4 - V_1(\epsilon)V_2(\epsilon)\SL_3\SL_4 - V_1(\epsilon)\SL_2V_3(\epsilon)\SL_4 - V_1(\epsilon)\SL_2\SL_3V_4(\epsilon) - \SL_1V_2(\epsilon)V_3(\epsilon)\SL_4 - \SL_1V_2(\epsilon)\SL_3V_4(\epsilon) - \SL_1\SL_2V_3(\epsilon)V_4(\epsilon) + V_1(\epsilon)V_2(\epsilon)V_3(\epsilon)\SL_4 + V_1(\epsilon)V_2(\epsilon)\SL_3V_4(\epsilon) + V_1(\epsilon)\SL_2V_3(\epsilon)V_4(\epsilon) + \SL_1V_2(\epsilon)V_3(\epsilon)V_4(\epsilon) -  V_1(\epsilon)V_2(\epsilon)V_3(\epsilon)V_4(\epsilon)$
+
+\pause
+\vspace{.2in}
+
+$V^3(\epsilon) = \SL_1\SL_2V_3(\epsilon) + \SL_1V_2(\epsilon)\SL_3 + V_1(\epsilon)\SL_2\SL_3 - V_1(\epsilon)V_2(\epsilon)\SL_3 - V_1(\epsilon)\SL_2V_3(\epsilon)-\SL_1V_2(\epsilon)V_3(\epsilon) + V_1(\epsilon)V_2(\epsilon)V_3(\epsilon)$
+
+\vspace{.2in}
+
+$V^2(\epsilon) = \SL_1V_2(\epsilon) + V_1(\epsilon)\SL_2 - V_1(\epsilon)V_2(\epsilon)$
+
+\end{frame}
+
+\begin{frame}{Algebraic Manipulations}
+$V^2(\epsilon) = \SL_1V_2(\epsilon) + V_1(\epsilon)\SL_2 - V_1(\epsilon)V_2(\epsilon)$
+$$= (-1)\cdot(V_1(\epsilon)-\SL_1)\cdot(V_2(\epsilon)-\SL_2) + \SL_1\SL_2$$
+
+\pause
+\vspace{.2in}
+
+$V^3(\epsilon) = \SL_1\SL_2V_3(\epsilon) + \SL_1V_2(\epsilon)\SL_3 + V_1(\epsilon)\SL_2\SL_3 - V_1(\epsilon)V_2(\epsilon)\SL_3 - V_1(\epsilon)\SL_2V_3(\epsilon)-\SL_1V_2(\epsilon)V_3(\epsilon) + V_1(\epsilon)V_2(\epsilon)V_3(\epsilon)$
+
+$$= (-1)^2\cdot(V_1(\epsilon)-\SL_1)\cdot(V_2(\epsilon)-\SL_2)\cdot(V_3(\epsilon)-\SL_3) + \SL_1\SL_2\SL_3$$
+
+\end{frame}
+
+\begin{frame}{Algebraic Manipulations}
+$V^4(\epsilon) = \SL_1\SL_2\SL_3V_4(\epsilon) + \SL_1\SL_2V_3(\epsilon)\SL_4 + \SL_1V_2(\epsilon)\SL_3\SL_4 + V_1(\epsilon)\SL_2\SL_3\SL_4 - V_1(\epsilon)V_2(\epsilon)\SL_3\SL_4 - V_1(\epsilon)\SL_2V_3(\epsilon)\SL_4 - V_1(\epsilon)\SL_2\SL_3V_4(\epsilon) - \SL_1V_2(\epsilon)V_3(\epsilon)\SL_4 - \SL_1V_2(\epsilon)\SL_3V_4(\epsilon) - \SL_1\SL_2V_3(\epsilon)V_4(\epsilon) + V_1(\epsilon)V_2(\epsilon)V_3(\epsilon)\SL_4 + V_1(\epsilon)V_2(\epsilon)\SL_3V_4(\epsilon) + V_1(\epsilon)\SL_2V_3(\epsilon)V_4(\epsilon) + \SL_1V_2(\epsilon)V_3(\epsilon)V_4(\epsilon) -  V_1(\epsilon)V_2(\epsilon)V_3(\epsilon)V_4(\epsilon)$
+$$ = (-1)^3\cdot(V_1(\epsilon)-\SL_1)\cdot(V_2(\epsilon)-\SL_2)\cdot(V_3(\epsilon)-\SL_3)\cdot(V_4(\epsilon)-\SL_4) + \SL_1\SL_2\SL_3\SL_4$$
+\end{frame}
+
+\begin{frame}{General Volume Formula}
+
+$$V^2(\epsilon)= (-1)\cdot(V_1(\epsilon)-\SL_1)\cdot(V_2(\epsilon)-\SL_2) + \SL_1\SL_2$$
+
+$$ V^3(\epsilon) = (-1)^2\cdot(V_1(\epsilon)-\SL_1)\cdot(V_2(\epsilon)-\SL_2)\cdot(V_3(\epsilon)-\SL_3) + \SL_1\SL_2\SL_3$$
+
+$$ V^4(\epsilon)= (-1)^3\cdot(V_1(\epsilon)-\SL_1)\cdot(V_2(\epsilon)-\SL_2)\cdot(V_3(\epsilon)-\SL_3)\cdot(V_4(\epsilon)-\SL_4) + \SL_1\SL_2\SL_3\SL_4$$
+
+$$V^{n}(\epsilon) =\left[ (-1)^{n-1} \cdot \displaystyle \prod_{k = 1}^{n}(V_k(\epsilon)-\SL_k)\right] +\prod_{k = 1}^{n} \SL_k$$
+
+\end{frame}
+
+\begin{frame}{Future Work}
+\begin{itemize}
+
+\item Prove the general volume formula
+
+\item Find a general formula for dimension (based on general volume formula)
+
+\end{itemize}
+\end{frame}
 
 
 \begin{frame}[allowframebreaks]
