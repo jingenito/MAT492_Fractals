@@ -7,11 +7,12 @@ sys.path.append(os.path.join(app_path,'src'))
 
 import Util.CantorLawnVolume as clv
 
-D = (np.log(4) / np.log(3)) - 0.001
-delEps = 10**-4
+D = 1 + (np.log(2) / np.log(3)) 
+stop_eps = 10**-3
+start_eps = 10**-6
 
-eCount = int(np.floor(0.01 / delEps))
-epsSeq = np.linspace(delEps, 0.01, eCount)
+eCount = int(np.floor(stop_eps / start_eps))
+epsSeq = np.linspace(start_eps, stop_eps, eCount)
 
 bSeq = []
 volSeq = []
@@ -28,7 +29,7 @@ for e in epsSeq :
 plt.plot(epsSeq,bSeq,'r')
 plt.plot(epsSeq,volSeq,'g')
 plt.plot(epsSeq,epsAlpha,'b')
-plt.legend(['V / E**(2-D)','Vols','E**(2-D)'])
+plt.legend(['V(E) / E**(2-D)','V(E)','E**(2-D)'])
 plt.show()
 
 

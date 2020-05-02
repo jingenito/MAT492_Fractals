@@ -19,7 +19,7 @@ epsAlpha = []
 
 for e in epsSeq :
     vol = csv.Volume_Epsilon(e)
-    eA = e**(1-D)
+    eA = e**(1 - (D - 0.01))
 
     volSeq.append(vol)
     bSeq.append(vol / eA)
@@ -28,5 +28,5 @@ for e in epsSeq :
 plt.plot(epsSeq,bSeq,'r')
 plt.plot(epsSeq,volSeq,'g')
 plt.plot(epsSeq,epsAlpha,'b')
-plt.legend(['V / E**(1-D)','Vols','E**(1-D)'])
+plt.legend(['V(E) / E**(1-D)','V(E)','E**(1-D)'])
 plt.show()

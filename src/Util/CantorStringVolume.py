@@ -16,10 +16,5 @@ def Volume_Epsilon(eps : float) -> float :
     D = np.log(2) / np.log(3) 
     twoEps = 2*eps
     fPart = FractionalPart(np.log(twoEps) / np.log(3))
-    n = -intFLoor(np.log(twoEps) / np.log(3))
 
-    sum = 0
-    for k in range(1, n + 1) :
-        sum = sum + (twoEps)**(1-D) * ( (0.5)**(-fPart) + (3/2)**(-fPart) ) - twoEps
-
-    return sum
+    return (twoEps)**(1-D) * ( (0.5)**(-fPart) + (3/2)**(-fPart) ) - twoEps
