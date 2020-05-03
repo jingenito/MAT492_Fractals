@@ -1,4 +1,5 @@
 import math
+from Util import BinarySearch
 
 class ComplimentableSet:
     """ Provides a class for a list that represents a Mathematical Set of integers to obtain the compliment easily. If the set is non integral
@@ -13,7 +14,7 @@ class ComplimentableSet:
         num_string = range(self._interval[0], self._interval[1] + 1)
         out_string = []
         for x in num_string :
-            if not x in self._set :
+            if BinarySearch(self._set, x) == -1 :
                 out_string.append(x)
         return out_string
     
