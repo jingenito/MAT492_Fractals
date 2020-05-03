@@ -1,0 +1,40 @@
+\documentclass{if-beamer}
+
+\title[]{Badass Title}
+\subtitle{}
+\author{Isaac Ashton, Joseph Ingenito, Peter Tonuzi}
+\institute[]{The College of New Jersey}
+\date{}
+\logo{
+\includegraphics[scale=0.10]{tcnj-logotype-400-200.jpg}
+}
+\subject{MAT 229, Spring 2020} % metadata
+\usepackage{animate}
+
+\graphicspath{{Images/}}
+\usepackage{movie15}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\SL}{\mathcal{L}}
+\newcommand{\Om}{\Omega}
+\newcommand{\W}{\mathcal{W}}
+
+\begin{document}
+
+\begin{frame}{Inner Minkowski Dimension of a Fractal String}
+
+\begin{definition}
+{\bf Dimension of $\Om$}: $D_\Om =\text{inf}\left\{ \alpha \geq 0\ |\ V(\epsilon)=O\left(\epsilon^{1-\alpha}\right) \text{as  } \epsilon \rightarrow 0^{+}\right\}$
+\end{definition}
+
+\pause
+\vspace{.2 in}
+
+{\bf In other terms}: $D_\Om = \text{the smallest  }\alpha \text{ st } \displaystyle \lim_{\epsilon \to 0^{+}} \frac{V(\epsilon)}{\epsilon^{1-\alpha}}=c, \ c\in \mathbb{R}$
+
+\pause
+\vspace{.2 in}
+
+{\bf Cantor String Dimension}: $D_{cs} = \log_3 2$
+
+\end{frame}
+\end{document}
