@@ -26,6 +26,13 @@
 
 
 
+\begin{frame}{What We Will Cover}
+\text{we're finishing this after our dry run and inevitable cuts}
+
+\end{frame}
+
+
+
 \begin{frame}{What is a Fractal String}
 
 \begin{definition}
@@ -68,15 +75,15 @@ The fractal string we studied the most in particular is the {\bf Cantor String}
 \pause
 \vspace{.2 in}
 
-{\bf Counting function}:$\displaystyle \quad N_{\Omega}(x) = \sum_{\ell_j^{-1} \leq x}1$
+{\bf Counting function}:$\displaystyle \quad N_{\Omega}(x) = \sum_{\ell_j \geq x}1$
 
 \vspace{.2 in}
 
-{\bf More Notation}: $\displaystyle \quad \W_\Om(x) = \sum_{j:\ell_j^{-1} > x}{\ell_j}$
+{\bf More Notation}: $\displaystyle \quad \W_\Om(x) = \sum_{j:\ell_j < x}{\ell_j}$
 
 \vspace{.2 in}
 
-{\bf Now we can write}: $V(\epsilon) = 2\epsilon \cdot N_\Om\left(\frac{1}{2\epsilon}\right) + \W_\Om\left(\frac{1}{2\epsilon}\right)$
+{\bf Now we can write}: $V(\epsilon) = 2\epsilon \cdot N_\Om\left(2\epsilon\right) + \W_\Om\left(2\epsilon\right)$
 
 \end{frame}
 
