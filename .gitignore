@@ -8,7 +8,7 @@
 #I found online that these damn .ds_store files are mac related
 *.DS_Store
 
-#getting rid of these damb tex built files from the repo, they can stay on local machine fine
+#getting rid of these damn tex built files from the repo, they can stay on local machine fine
 #nothing will break if downloaded without them, when built again the tex software will create new files
 *.aux
 *.log
