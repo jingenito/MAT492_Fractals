@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7350 64-bit) (preloaded format=pdflatex 2020.4.13)  2 MAY 2020 19:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7350 64-bit) (preloaded format=pdflatex 2020.4.13)  4 MAY 2020 02:24
 entering extended mode
 **./main.tex
 (main.tex
@@ -1012,14 +1012,29 @@ Package: ocgbase 2019/11/04 v0.17 support package for ocgx2.sty
 \@anim@curfield=\count356
 \@anim@@resizeflags=\count357
 )
+("C:\Program Files\MiKTeX 2.9\tex/latex/systeme\systeme.sty"
+("C:\Program Files\MiKTeX 2.9\tex/latex/xstring\xstring.sty"
+("C:\Program Files\MiKTeX 2.9\tex/generic/xstring\xstring.tex"
+\integerpart=\count358
+\decimalpart=\count359
+)
+Package: xstring 2019/02/06 v1.83 String manipulations (CT)
+)
+("C:\Program Files\MiKTeX 2.9\tex/generic/systeme\systeme.tex"
+\SYS_systemecode=\toks58
+\SYS_systempreamble=\toks59
+\SYSeqnum=\count360
+)
+Package: systeme 2020/04/13 v0.33 Mise en forme de systemes d'equations (CT)
+)
 ("C:\Program Files\MiKTeX 2.9\tex/latex/movie15\movie15.sty"
 Package: movie15 2012/05/16
-\@MXV@page=\count358
-\@MXV@adict=\count359
-\@MXV@aadict=\count360
-\@MXV@includes=\count361
-\@MXV@players=\count362
-\@MXV@links=\count363
+\@MXV@page=\count361
+\@MXV@adict=\count362
+\@MXV@aadict=\count363
+\@MXV@includes=\count364
+\@MXV@players=\count365
+\@MXV@links=\count366
 \@MXV@width=\dimen315
 \@MXV@height=\dimen316
 \@MXV@depth=\dimen317
@@ -1033,23 +1048,23 @@ Package: movie15 2012/05/16
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 27
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 29
 .
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\t1phv.fd"
@@ -1091,17 +1106,17 @@ File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 
 ("C:\Program Files\MiKTeX 2.9\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count364
+\scratchcounter=\count367
 \scratchdimen=\dimen324
 \scratchbox=\box97
-\nofMPsegments=\count365
-\nofMParguments=\count366
-\everyMPshowfont=\toks58
-\MPscratchCnt=\count367
+\nofMPsegments=\count368
+\nofMParguments=\count369
+\everyMPshowfont=\toks60
+\MPscratchCnt=\count370
 \MPscratchDim=\dimen325
-\MPnumerator=\count368
-\makeMPintoPDFobject=\count369
-\everyMPtoPDFconversion=\toks59
+\MPnumerator=\count371
+\makeMPintoPDFobject=\count372
+\everyMPtoPDFconversion=\toks61
 ) ("C:\Program Files\MiKTeX 2.9\tex/latex/epstopdf-pkg\epstopdf-base.sty"
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1109,7 +1124,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 )
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box98
-Package hyperref Info: Link coloring OFF on input line 27.
+Package hyperref Info: Link coloring OFF on input line 29.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/hyperref\nameref.sty"
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1120,58 +1135,58 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ("C:\Program Files\MiKTeX 2.9\tex/generic/gettitlestring\gettitlestring.sty"
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count370
+\c@section@level=\count373
 )
-LaTeX Info: Redefining \ref on input line 27.
-LaTeX Info: Redefining \pageref on input line 27.
-LaTeX Info: Redefining \nameref on input line 27.
+LaTeX Info: Redefining \ref on input line 29.
+LaTeX Info: Redefining \pageref on input line 29.
+LaTeX Info: Redefining \nameref on input line 29.
 
 (main.out) (main.out)
 \@outlinefile=\write7
 \openout7 = `main.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 27.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 29.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 27.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 29.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 27.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 27.
+(Font)                  OT1/cmss/m/n --> T1/cmr/m/n on input line 29.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T1/phv/b/n on input line 27.
+(Font)                  OT1/cmr/bx/n --> T1/phv/b/n on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/phv/b/n on input line 27.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 27.
+(Font)                  OT1/cmr/bx/n --> T1/phv/b/n on input line 29.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> T1/phv/m/n on input line 27.
+(Font)                  OT1/cmss/m/n --> T1/phv/m/n on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> T1/phv/m/n on input line 27.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 27.
+(Font)                  OT1/cmss/bx/n --> T1/phv/m/n on input line 29.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/phv/m/it on input line 27.
+(Font)                  OT1/cmr/m/it --> T1/phv/m/it on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/phv/m/it on input line 27.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 27.
+(Font)                  OT1/cmr/bx/it --> T1/phv/m/it on input line 29.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> T1/pcr/m/n on input line 27.
+(Font)                  OT1/cmtt/m/n --> T1/pcr/m/n on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> T1/pcr/m/n on input line 27.
+(Font)                  OT1/cmtt/m/n --> T1/pcr/m/n on input line 29.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/phv/m/n --> T1/phv/b/n on input line 27.
+(Font)                  T1/phv/m/n --> T1/phv/b/n on input line 29.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/phv/m/it --> T1/phv/b/it on input line 27.
+(Font)                  T1/phv/m/it --> T1/phv/b/it on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> T1/cmr/b/n on input line 27.
+(Font)                  OT1/cmss/b/n --> T1/cmr/b/n on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/phv/b/n --> T1/phv/b/n on input line 27.
+(Font)                  T1/phv/b/n --> T1/phv/b/n on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/phv/m/n --> T1/phv/b/n on input line 27.
+(Font)                  T1/phv/m/n --> T1/phv/b/n on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/phv/m/it --> T1/phv/b/it on input line 27.
+(Font)                  T1/phv/m/it --> T1/phv/b/it on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/pcr/m/n --> T1/pcr/b/n on input line 27.
+(Font)                  T1/pcr/m/n --> T1/pcr/b/n on input line 29.
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/translator\translator-basic-dictionary-
 English.dict"
@@ -1206,17 +1221,17 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count371
+\c@lstlisting=\count374
 
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 27.
+LaTeX Info: Redefining \selectfont on input line 29.
  (main.nav)
-Overfull \hbox (26.29057pt too wide) in paragraph at lines 27--27
+Overfull \hbox (26.29057pt too wide) in paragraph at lines 29--29
  [][]    
  []
 
 
-Overfull \hbox (1.38991pt too wide) in paragraph at lines 27--27
+Overfull \hbox (1.38991pt too wide) in paragraph at lines 29--29
 [][] 
  []
 
@@ -1224,7 +1239,7 @@ Overfull \hbox (1.38991pt too wide) in paragraph at lines 27--27
 File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
 <use Images/tcnj-logotype-400-200.jpg>
 Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 3
-1.
+3.
 (pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
 
 Overfull \hbox (26.29057pt too wide) has occurred while \output is active
@@ -1240,28 +1255,28 @@ Overfull \hbox (1.38991pt too wide) has occurred while \output is active
 
 {C:/Users/jinge/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Images/tc
 nj-logotype-400-200.jpg>]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 54.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 56.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 54.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 56.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 54.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 56.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 54.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 56.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <5> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 54.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 56.
 File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
 <use Images/tcnj-logotype-400-200.jpg>
 Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 5
-4.
+6.
 (pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
 
 Overfull \hbox (26.29057pt too wide) has occurred while \output is active
@@ -1279,7 +1294,7 @@ Overfull \hbox (1.38991pt too wide) has occurred while \output is active
 File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
 <use Images/tcnj-logotype-400-200.jpg>
 Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 5
-4.
+6.
 (pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
 
 Overfull \hbox (26.29057pt too wide) has occurred while \output is active
@@ -1297,7 +1312,7 @@ Overfull \hbox (1.38991pt too wide) has occurred while \output is active
 File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
 <use Images/tcnj-logotype-400-200.jpg>
 Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 5
-4.
+6.
 (pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
 
 Overfull \hbox (26.29057pt too wide) has occurred while \output is active
@@ -1315,7 +1330,7 @@ Overfull \hbox (1.38991pt too wide) has occurred while \output is active
 File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
 <use Images/tcnj-logotype-400-200.jpg>
 Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 5
-4.
+6.
 (pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
 
 Overfull \hbox (26.29057pt too wide) has occurred while \output is active
@@ -1334,168 +1349,168 @@ Overfull \hbox (1.38991pt too wide) has occurred while \output is active
 File: Images/CantorStringPNG/CantorStringPNG-0.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-0.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-0.png  used on 
-input line 60.
+input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-0.png> <a0,fr0>
 <Images/CantorStringPNG/CantorStringPNG-1.png, id=70, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-1.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-1.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-1.png  used on 
-input line 60.
+input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-1.png> <a0,fr1>
 <Images/CantorStringPNG/CantorStringPNG-2.png, id=81, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-2.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-2.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-2.png  used on 
-input line 60.
+input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-2.png> <a0,fr2>
 <Images/CantorStringPNG/CantorStringPNG-3.png, id=91, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-3.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-3.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-3.png  used on 
-input line 60.
+input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-3.png> <a0,fr3>
 <Images/CantorStringPNG/CantorStringPNG-4.png, id=101, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-4.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-4.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-4.png  used on 
-input line 60.
+input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-4.png> <a0,fr4>
 <Images/CantorStringPNG/CantorStringPNG-5.png, id=111, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-5.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-5.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-5.png  used on 
-input line 60.
+input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-5.png> <a0,fr5>
 <Images/CantorStringPNG/CantorStringPNG-6.png, id=121, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-6.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-6.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-6.png  used on 
-input line 60.
+input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-6.png> <a0,fr6>
 <Images/CantorStringPNG/CantorStringPNG-7.png, id=131, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-7.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-7.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-7.png  used on 
-input line 60.
+input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-7.png> <a0,fr7>
 <Images/CantorStringPNG/CantorStringPNG-8.png, id=141, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-8.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-8.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-8.png  used on 
-input line 60.
+input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-8.png> <a0,fr8>
 <Images/CantorStringPNG/CantorStringPNG-9.png, id=151, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-9.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-9.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-9.png  used on 
-input line 60.
+input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-9.png> <a0,fr9>
 <Images/CantorStringPNG/CantorStringPNG-10.png, id=162, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-10.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-10.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-10.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-10.png> <a0,fr10>
 <Images/CantorStringPNG/CantorStringPNG-11.png, id=172, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-11.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-11.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-11.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-11.png> <a0,fr11>
 <Images/CantorStringPNG/CantorStringPNG-12.png, id=183, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-12.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-12.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-12.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-12.png> <a0,fr12>
 <Images/CantorStringPNG/CantorStringPNG-13.png, id=193, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-13.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-13.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-13.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-13.png> <a0,fr13>
 <Images/CantorStringPNG/CantorStringPNG-14.png, id=203, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-14.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-14.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-14.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-14.png> <a0,fr14>
 <Images/CantorStringPNG/CantorStringPNG-15.png, id=213, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-15.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-15.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-15.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-15.png> <a0,fr15>
 <Images/CantorStringPNG/CantorStringPNG-16.png, id=223, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-16.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-16.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-16.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-16.png> <a0,fr16>
 <Images/CantorStringPNG/CantorStringPNG-17.png, id=233, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-17.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-17.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-17.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-17.png> <a0,fr17>
 <Images/CantorStringPNG/CantorStringPNG-18.png, id=244, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-18.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-18.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-18.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-18.png> <a0,fr18>
 <Images/CantorStringPNG/CantorStringPNG-19.png, id=254, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-19.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-19.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-19.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-19.png> <a0,fr19>
 <Images/CantorStringPNG/CantorStringPNG-20.png, id=265, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-20.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-20.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-20.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-20.png> <a0,fr20>
 <Images/CantorStringPNG/CantorStringPNG-21.png, id=275, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-21.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-21.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-21.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-21.png> <a0,fr21>
 <Images/CantorStringPNG/CantorStringPNG-22.png, id=286, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-22.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-22.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-22.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-22.png> <a0,fr22>
 <Images/CantorStringPNG/CantorStringPNG-23.png, id=296, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-23.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-23.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-23.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-23.png>
 <a0,fr23>
@@ -1503,119 +1518,119 @@ Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-23.png  used on
 File: Images/CantorStringPNG/CantorStringPNG-24.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-24.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-24.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-24.png> <a0,fr24>
 <Images/CantorStringPNG/CantorStringPNG-25.png, id=316, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-25.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-25.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-25.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-25.png> <a0,fr25>
 <Images/CantorStringPNG/CantorStringPNG-26.png, id=326, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-26.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-26.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-26.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-26.png> <a0,fr26>
 <Images/CantorStringPNG/CantorStringPNG-27.png, id=336, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-27.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-27.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-27.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-27.png> <a0,fr27>
 <Images/CantorStringPNG/CantorStringPNG-28.png, id=347, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-28.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-28.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-28.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-28.png> <a0,fr28>
 <Images/CantorStringPNG/CantorStringPNG-29.png, id=357, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-29.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-29.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-29.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-29.png> <a0,fr29>
 <Images/CantorStringPNG/CantorStringPNG-30.png, id=368, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-30.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-30.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-30.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-30.png> <a0,fr30>
 <Images/CantorStringPNG/CantorStringPNG-31.png, id=378, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-31.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-31.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-31.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-31.png> <a0,fr31>
 <Images/CantorStringPNG/CantorStringPNG-32.png, id=389, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-32.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-32.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-32.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-32.png> <a0,fr32>
 <Images/CantorStringPNG/CantorStringPNG-33.png, id=399, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-33.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-33.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-33.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-33.png> <a0,fr33>
 <Images/CantorStringPNG/CantorStringPNG-34.png, id=409, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-34.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-34.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-34.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-34.png> <a0,fr34>
 <Images/CantorStringPNG/CantorStringPNG-35.png, id=419, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-35.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-35.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-35.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-35.png> <a0,fr35>
 <Images/CantorStringPNG/CantorStringPNG-36.png, id=429, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-36.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-36.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-36.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-36.png> <a0,fr36>
 <Images/CantorStringPNG/CantorStringPNG-37.png, id=439, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-37.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-37.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-37.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-37.png> <a0,fr37>
 <Images/CantorStringPNG/CantorStringPNG-38.png, id=449, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-38.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-38.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-38.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-38.png> <a0,fr38>
 <Images/CantorStringPNG/CantorStringPNG-39.png, id=459, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-39.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-39.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-39.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-39.png> <a0,fr39>
 <Images/CantorStringPNG/CantorStringPNG-40.png, id=470, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-40.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-40.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-40.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-40.png>
 <a0,fr40>
@@ -1623,119 +1638,119 @@ Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-40.png  used on
 File: Images/CantorStringPNG/CantorStringPNG-41.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-41.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-41.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-41.png> <a0,fr41>
 <Images/CantorStringPNG/CantorStringPNG-42.png, id=491, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-42.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-42.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-42.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-42.png> <a0,fr42>
 <Images/CantorStringPNG/CantorStringPNG-43.png, id=501, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-43.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-43.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-43.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-43.png> <a0,fr43>
 <Images/CantorStringPNG/CantorStringPNG-44.png, id=511, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-44.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-44.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-44.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-44.png> <a0,fr44>
 <Images/CantorStringPNG/CantorStringPNG-45.png, id=521, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-45.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-45.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-45.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-45.png> <a0,fr45>
 <Images/CantorStringPNG/CantorStringPNG-46.png, id=531, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-46.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-46.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-46.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-46.png> <a0,fr46>
 <Images/CantorStringPNG/CantorStringPNG-47.png, id=541, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-47.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-47.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-47.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-47.png> <a0,fr47>
 <Images/CantorStringPNG/CantorStringPNG-48.png, id=551, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-48.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-48.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-48.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-48.png> <a0,fr48>
 <Images/CantorStringPNG/CantorStringPNG-49.png, id=561, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-49.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-49.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-49.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-49.png> <a0,fr49>
 <Images/CantorStringPNG/CantorStringPNG-50.png, id=572, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-50.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-50.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-50.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-50.png> <a0,fr50>
 <Images/CantorStringPNG/CantorStringPNG-51.png, id=582, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-51.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-51.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-51.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-51.png> <a0,fr51>
 <Images/CantorStringPNG/CantorStringPNG-52.png, id=593, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-52.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-52.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-52.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-52.png> <a0,fr52>
 <Images/CantorStringPNG/CantorStringPNG-53.png, id=603, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-53.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-53.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-53.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-53.png> <a0,fr53>
 <Images/CantorStringPNG/CantorStringPNG-54.png, id=613, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-54.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-54.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-54.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-54.png> <a0,fr54>
 <Images/CantorStringPNG/CantorStringPNG-55.png, id=623, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-55.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-55.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-55.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-55.png> <a0,fr55>
 <Images/CantorStringPNG/CantorStringPNG-56.png, id=633, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-56.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-56.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-56.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-56.png> <a0,fr56>
 <Images/CantorStringPNG/CantorStringPNG-57.png, id=643, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-57.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-57.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-57.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-57.png>
 <a0,fr57>
@@ -1743,30 +1758,30 @@ Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-57.png  used on
 File: Images/CantorStringPNG/CantorStringPNG-58.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-58.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-58.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-58.png> <a0,fr58>
 <Images/CantorStringPNG/CantorStringPNG-59.png, id=663, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-59.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-59.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-59.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-59.png> <a0,fr59>
 <Images/CantorStringPNG/CantorStringPNG-60.png, id=674, 1003.75pt x 1003.75pt>
 File: Images/CantorStringPNG/CantorStringPNG-60.png Graphic file (type png)
 <use Images/CantorStringPNG/CantorStringPNG-60.png>
 Package pdftex.def Info: Images/CantorStringPNG/CantorStringPNG-60.png  used on
- input line 60.
+ input line 62.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringPNG/CantorStringPNG-60.png> <a0,fr60>
-Overfull \vbox (13.56319pt too high) detected at line 60
+Overfull \vbox (13.56319pt too high) detected at line 62
  []
 
 File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
 <use Images/tcnj-logotype-400-200.jpg>
 Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 6
-0.
+2.
 (pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
 
 Overfull \hbox (26.29057pt too wide) has occurred while \output is active
@@ -1784,7 +1799,7 @@ Overfull \hbox (1.38991pt too wide) has occurred while \output is active
 File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
 <use Images/tcnj-logotype-400-200.jpg>
 Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 9
-1.
+3.
 (pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
 
 Overfull \hbox (26.29057pt too wide) has occurred while \output is active
@@ -1802,7 +1817,7 @@ Overfull \hbox (1.38991pt too wide) has occurred while \output is active
 File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
 <use Images/tcnj-logotype-400-200.jpg>
 Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 9
-1.
+3.
 (pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
 
 Overfull \hbox (26.29057pt too wide) has occurred while \output is active
@@ -1820,7 +1835,7 @@ Overfull \hbox (1.38991pt too wide) has occurred while \output is active
 File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
 <use Images/tcnj-logotype-400-200.jpg>
 Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 9
-1.
+3.
 (pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
 
 Overfull \hbox (26.29057pt too wide) has occurred while \output is active
@@ -1838,7 +1853,7 @@ Overfull \hbox (1.38991pt too wide) has occurred while \output is active
 File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
 <use Images/tcnj-logotype-400-200.jpg>
 Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 9
-1.
+3.
 (pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
 
 Overfull \hbox (26.29057pt too wide) has occurred while \output is active
@@ -1859,7 +1874,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-0.png Graphic file (ty
 pe png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-0.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-0.p
-ng  used on input line 97.
+ng  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-0.png> <a1,fr0>
 <Images/CantorStringVolumePNG/CantorStringVolumePNG-1.png, id=777, 1003.75pt x 
@@ -1868,7 +1883,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-1.png Graphic file (ty
 pe png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-1.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-1.p
-ng  used on input line 97.
+ng  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-1.png> <a1,fr1>
 <Images/CantorStringVolumePNG/CantorStringVolumePNG-2.png, id=788, 1003.75pt x 
@@ -1877,7 +1892,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-2.png Graphic file (ty
 pe png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-2.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-2.p
-ng  used on input line 97.
+ng  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-2.png> <a1,fr2>
 <Images/CantorStringVolumePNG/CantorStringVolumePNG-3.png, id=799, 1003.75pt x 
@@ -1886,7 +1901,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-3.png Graphic file (ty
 pe png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-3.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-3.p
-ng  used on input line 97.
+ng  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-3.png> <a1,fr3>
 <Images/CantorStringVolumePNG/CantorStringVolumePNG-4.png, id=810, 1003.75pt x 
@@ -1895,7 +1910,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-4.png Graphic file (ty
 pe png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-4.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-4.p
-ng  used on input line 97.
+ng  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-4.png> <a1,fr4>
 <Images/CantorStringVolumePNG/CantorStringVolumePNG-5.png, id=821, 1003.75pt x 
@@ -1904,7 +1919,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-5.png Graphic file (ty
 pe png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-5.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-5.p
-ng  used on input line 97.
+ng  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-5.png> <a1,fr5>
 <Images/CantorStringVolumePNG/CantorStringVolumePNG-6.png, id=832, 1003.75pt x 
@@ -1913,7 +1928,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-6.png Graphic file (ty
 pe png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-6.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-6.p
-ng  used on input line 97.
+ng  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-6.png> <a1,fr6>
 <Images/CantorStringVolumePNG/CantorStringVolumePNG-7.png, id=843, 1003.75pt x 
@@ -1922,7 +1937,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-7.png Graphic file (ty
 pe png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-7.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-7.p
-ng  used on input line 97.
+ng  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-7.png> <a1,fr7>
 <Images/CantorStringVolumePNG/CantorStringVolumePNG-8.png, id=854, 1003.75pt x 
@@ -1931,7 +1946,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-8.png Graphic file (ty
 pe png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-8.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-8.p
-ng  used on input line 97.
+ng  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-8.png>
 <a1,fr8>
@@ -1941,7 +1956,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-9.png Graphic file (ty
 pe png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-9.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-9.p
-ng  used on input line 97.
+ng  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-9.png> <a1,fr9>
 <Images/CantorStringVolumePNG/CantorStringVolumePNG-10.png, id=876, 1003.75pt x
@@ -1950,7 +1965,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-10.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-10.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-10.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-10.png> <a1,fr10>
 <Images/CantorStringVolumePNG/CantorStringVolumePNG-11.png, id=887, 1003.75pt x
@@ -1959,7 +1974,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-11.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-11.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-11.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-11.png> <a1,fr11>
 <Images/CantorStringVolumePNG/CantorStringVolumePNG-12.png, id=898, 1003.75pt x
@@ -1968,7 +1983,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-12.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-12.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-12.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-12.png> <a1,fr12>
 <Images/CantorStringVolumePNG/CantorStringVolumePNG-13.png, id=909, 1003.75pt x
@@ -1977,7 +1992,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-13.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-13.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-13.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-13.png> <a1,fr13>
 <Images/CantorStringVolumePNG/CantorStringVolumePNG-14.png, id=920, 1003.75pt x
@@ -1986,7 +2001,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-14.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-14.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-14.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-14.png> <a1,fr14>
 <Images/CantorStringVolumePNG/CantorStringVolumePNG-15.png, id=931, 1003.75pt x
@@ -1995,7 +2010,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-15.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-15.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-15.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-15.png> <a1,fr15>
 <Images/CantorStringVolumePNG/CantorStringVolumePNG-16.png, id=942, 1003.75pt x
@@ -2004,7 +2019,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-16.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-16.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-16.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-16.png> <a1,fr16>
 <Images/CantorStringVolumePNG/CantorStringVolumePNG-17.png, id=953, 1003.75pt x
@@ -2013,7 +2028,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-17.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-17.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-17.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-17.png> <a1,fr17>
 <Images/CantorStringVolumePNG/CantorStringVolumePNG-18.png, id=964, 1003.75pt x
@@ -2022,7 +2037,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-18.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-18.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-18.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-18.png> <a1,fr18>
 <Images/CantorStringVolumePNG/CantorStringVolumePNG-19.png, id=975, 1003.75pt x
@@ -2031,7 +2046,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-19.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-19.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-19.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-19.png>
 <a1,fr19>
@@ -2041,7 +2056,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-20.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-20.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-20.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-20.png>
 <a1,fr20>
@@ -2051,7 +2066,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-21.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-21.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-21.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-21.png>
 <a1,fr21>
@@ -2061,7 +2076,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-22.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-22.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-22.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-22.png>
 <a1,fr22>
@@ -2071,7 +2086,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-23.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-23.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-23.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-23.png>
 <a1,fr23>
@@ -2081,7 +2096,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-24.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-24.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-24.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-24.png>
 <a1,fr24>
@@ -2091,7 +2106,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-25.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-25.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-25.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-25.png>
 <a1,fr25>
@@ -2101,7 +2116,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-26.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-26.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-26.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-26.png>
 <a1,fr26>
@@ -2111,7 +2126,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-27.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-27.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-27.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-27.png>
 <a1,fr27>
@@ -2121,7 +2136,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-28.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-28.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-28.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-28.png>
 <a1,fr28>
@@ -2131,7 +2146,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-29.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-29.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-29.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-29.png>
 <a1,fr29>
@@ -2141,7 +2156,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-30.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-30.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-30.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-30.png>
 <a1,fr30>
@@ -2151,7 +2166,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-31.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-31.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-31.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-31.png>
 <a1,fr31>
@@ -2161,7 +2176,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-32.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-32.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-32.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-32.png>
 <a1,fr32>
@@ -2171,7 +2186,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-33.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-33.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-33.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-33.png>
 <a1,fr33>
@@ -2181,7 +2196,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-34.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-34.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-34.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-34.png>
 <a1,fr34>
@@ -2191,7 +2206,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-35.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-35.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-35.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-35.png>
 <a1,fr35>
@@ -2201,7 +2216,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-36.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-36.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-36.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-36.png>
 <a1,fr36>
@@ -2211,7 +2226,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-37.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-37.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-37.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-37.png>
 <a1,fr37>
@@ -2221,7 +2236,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-38.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-38.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-38.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-38.png>
 <a1,fr38>
@@ -2231,7 +2246,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-39.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-39.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-39.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-39.png>
 <a1,fr39>
@@ -2241,7 +2256,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-40.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-40.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-40.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-40.png>
 <a1,fr40>
@@ -2251,7 +2266,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-41.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-41.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-41.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-41.png>
 <a1,fr41>
@@ -2261,7 +2276,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-42.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-42.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-42.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-42.png>
 <a1,fr42>
@@ -2271,7 +2286,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-43.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-43.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-43.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-43.png>
 <a1,fr43>
@@ -2281,7 +2296,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-44.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-44.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-44.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-44.png>
 <a1,fr44>
@@ -2291,7 +2306,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-45.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-45.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-45.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-45.png>
 <a1,fr45>
@@ -2301,7 +2316,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-46.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-46.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-46.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-46.png>
 <a1,fr46>
@@ -2311,7 +2326,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-47.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-47.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-47.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-47.png>
 <a1,fr47>
@@ -2321,7 +2336,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-48.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-48.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-48.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-48.png>
 <a1,fr48>
@@ -2331,7 +2346,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-49.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-49.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-49.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-49.png>
 <a1,fr49>
@@ -2341,7 +2356,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-50.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-50.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-50.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-50.png>
 <a1,fr50>
@@ -2351,7 +2366,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-51.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-51.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-51.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-51.png>
 <a1,fr51>
@@ -2361,7 +2376,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-52.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-52.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-52.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-52.png>
 <a1,fr52>
@@ -2371,7 +2386,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-53.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-53.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-53.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-53.png>
 <a1,fr53>
@@ -2381,7 +2396,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-54.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-54.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-54.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-54.png>
 <a1,fr54>
@@ -2391,7 +2406,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-55.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-55.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-55.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-55.png>
 <a1,fr55>
@@ -2401,7 +2416,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-56.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-56.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-56.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-56.png>
 <a1,fr56>
@@ -2411,7 +2426,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-57.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-57.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-57.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-57.png>
 <a1,fr57>
@@ -2421,7 +2436,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-58.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-58.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-58.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-58.png>
 <a1,fr58>
@@ -2431,7 +2446,7 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-59.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-59.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-59.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-59.png>
 <a1,fr59>
@@ -2441,17 +2456,17 @@ File: Images/CantorStringVolumePNG/CantorStringVolumePNG-60.png Graphic file (t
 ype png)
 <use Images/CantorStringVolumePNG/CantorStringVolumePNG-60.png>
 Package pdftex.def Info: Images/CantorStringVolumePNG/CantorStringVolumePNG-60.
-png  used on input line 97.
+png  used on input line 99.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorStringVolumePNG/CantorStringVolumePNG-60.png>
 <a1,fr60>
-Overfull \vbox (13.56319pt too high) detected at line 97
+Overfull \vbox (13.56319pt too high) detected at line 99
  []
 
 File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
 <use Images/tcnj-logotype-400-200.jpg>
 Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 9
-7.
+9.
 (pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
 
 Overfull \hbox (26.29057pt too wide) has occurred while \output is active
@@ -2467,14 +2482,14 @@ Overfull \hbox (1.38991pt too wide) has occurred while \output is active
 
 ]
 LaTeX Font Info:    Trying to load font information for OT1+pzc on input line 1
-18.
+20.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\ot1pzc.fd"
 File: ot1pzc.fd 2020/03/25 font definitions for OT1/pzc.
 )
 File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
 <use Images/tcnj-logotype-400-200.jpg>
 Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 1
-18.
+20.
 (pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
 
 Overfull \hbox (26.29057pt too wide) has occurred while \output is active
@@ -2492,7 +2507,7 @@ Overfull \hbox (1.38991pt too wide) has occurred while \output is active
 File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
 <use Images/tcnj-logotype-400-200.jpg>
 Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 1
-18.
+20.
 (pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
 
 Overfull \hbox (26.29057pt too wide) has occurred while \output is active
@@ -2510,7 +2525,7 @@ Overfull \hbox (1.38991pt too wide) has occurred while \output is active
 File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
 <use Images/tcnj-logotype-400-200.jpg>
 Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 1
-18.
+20.
 (pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
 
 Overfull \hbox (26.29057pt too wide) has occurred while \output is active
@@ -2528,7 +2543,7 @@ Overfull \hbox (1.38991pt too wide) has occurred while \output is active
 File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
 <use Images/tcnj-logotype-400-200.jpg>
 Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 1
-18.
+20.
 (pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
 
 Overfull \hbox (26.29057pt too wide) has occurred while \output is active
@@ -2547,21 +2562,21 @@ Overfull \hbox (1.38991pt too wide) has occurred while \output is active
 File: Images/CantorLawnPNG/CantorLawnPNG-0.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-0.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-0.png  used on inpu
-t line 124.
+t line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-0.png> <a2,fr0>
 <Images/CantorLawnPNG/CantorLawnPNG-1.png, id=1501, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-1.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-1.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-1.png  used on inpu
-t line 124.
+t line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-1.png> <a2,fr1>
 <Images/CantorLawnPNG/CantorLawnPNG-2.png, id=1512, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-2.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-2.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-2.png  used on inpu
-t line 124.
+t line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-2.png>
 <a2,fr2>
@@ -2569,70 +2584,70 @@ t line 124.
 File: Images/CantorLawnPNG/CantorLawnPNG-3.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-3.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-3.png  used on inpu
-t line 124.
+t line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-3.png> <a2,fr3>
 <Images/CantorLawnPNG/CantorLawnPNG-4.png, id=1532, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-4.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-4.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-4.png  used on inpu
-t line 124.
+t line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-4.png> <a2,fr4>
 <Images/CantorLawnPNG/CantorLawnPNG-5.png, id=1542, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-5.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-5.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-5.png  used on inpu
-t line 124.
+t line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-5.png> <a2,fr5>
 <Images/CantorLawnPNG/CantorLawnPNG-6.png, id=1552, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-6.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-6.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-6.png  used on inpu
-t line 124.
+t line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-6.png> <a2,fr6>
 <Images/CantorLawnPNG/CantorLawnPNG-7.png, id=1562, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-7.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-7.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-7.png  used on inpu
-t line 124.
+t line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-7.png> <a2,fr7>
 <Images/CantorLawnPNG/CantorLawnPNG-8.png, id=1572, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-8.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-8.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-8.png  used on inpu
-t line 124.
+t line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-8.png> <a2,fr8>
 <Images/CantorLawnPNG/CantorLawnPNG-9.png, id=1582, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-9.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-9.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-9.png  used on inpu
-t line 124.
+t line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-9.png> <a2,fr9>
 <Images/CantorLawnPNG/CantorLawnPNG-10.png, id=1593, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-10.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-10.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-10.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-10.png> <a2,fr10>
 <Images/CantorLawnPNG/CantorLawnPNG-11.png, id=1603, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-11.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-11.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-11.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-11.png> <a2,fr11>
 <Images/CantorLawnPNG/CantorLawnPNG-12.png, id=1614, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-12.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-12.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-12.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-12.png>
 <a2,fr12>
@@ -2640,49 +2655,49 @@ ut line 124.
 File: Images/CantorLawnPNG/CantorLawnPNG-13.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-13.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-13.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-13.png> <a2,fr13>
 <Images/CantorLawnPNG/CantorLawnPNG-14.png, id=1634, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-14.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-14.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-14.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-14.png> <a2,fr14>
 <Images/CantorLawnPNG/CantorLawnPNG-15.png, id=1644, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-15.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-15.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-15.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-15.png> <a2,fr15>
 <Images/CantorLawnPNG/CantorLawnPNG-16.png, id=1654, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-16.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-16.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-16.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-16.png> <a2,fr16>
 <Images/CantorLawnPNG/CantorLawnPNG-17.png, id=1664, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-17.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-17.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-17.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-17.png> <a2,fr17>
 <Images/CantorLawnPNG/CantorLawnPNG-18.png, id=1675, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-18.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-18.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-18.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-18.png> <a2,fr18>
 <Images/CantorLawnPNG/CantorLawnPNG-19.png, id=1685, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-19.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-19.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-19.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-19.png>
 <a2,fr19>
@@ -2690,49 +2705,49 @@ ut line 124.
 File: Images/CantorLawnPNG/CantorLawnPNG-20.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-20.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-20.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-20.png> <a2,fr20>
 <Images/CantorLawnPNG/CantorLawnPNG-21.png, id=1706, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-21.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-21.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-21.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-21.png> <a2,fr21>
 <Images/CantorLawnPNG/CantorLawnPNG-22.png, id=1717, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-22.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-22.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-22.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-22.png> <a2,fr22>
 <Images/CantorLawnPNG/CantorLawnPNG-23.png, id=1727, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-23.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-23.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-23.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-23.png> <a2,fr23>
 <Images/CantorLawnPNG/CantorLawnPNG-24.png, id=1737, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-24.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-24.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-24.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-24.png> <a2,fr24>
 <Images/CantorLawnPNG/CantorLawnPNG-25.png, id=1747, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-25.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-25.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-25.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-25.png> <a2,fr25>
 <Images/CantorLawnPNG/CantorLawnPNG-26.png, id=1757, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-26.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-26.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-26.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-26.png>
 <a2,fr26>
@@ -2740,49 +2755,49 @@ ut line 124.
 File: Images/CantorLawnPNG/CantorLawnPNG-27.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-27.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-27.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-27.png> <a2,fr27>
 <Images/CantorLawnPNG/CantorLawnPNG-28.png, id=1778, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-28.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-28.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-28.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-28.png> <a2,fr28>
 <Images/CantorLawnPNG/CantorLawnPNG-29.png, id=1788, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-29.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-29.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-29.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-29.png> <a2,fr29>
 <Images/CantorLawnPNG/CantorLawnPNG-30.png, id=1799, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-30.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-30.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-30.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-30.png> <a2,fr30>
 <Images/CantorLawnPNG/CantorLawnPNG-31.png, id=1809, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-31.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-31.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-31.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-31.png> <a2,fr31>
 <Images/CantorLawnPNG/CantorLawnPNG-32.png, id=1820, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-32.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-32.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-32.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-32.png> <a2,fr32>
 <Images/CantorLawnPNG/CantorLawnPNG-33.png, id=1830, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-33.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-33.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-33.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-33.png>
 <a2,fr33>
@@ -2790,49 +2805,49 @@ ut line 124.
 File: Images/CantorLawnPNG/CantorLawnPNG-34.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-34.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-34.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-34.png> <a2,fr34>
 <Images/CantorLawnPNG/CantorLawnPNG-35.png, id=1850, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-35.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-35.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-35.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-35.png> <a2,fr35>
 <Images/CantorLawnPNG/CantorLawnPNG-36.png, id=1860, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-36.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-36.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-36.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-36.png> <a2,fr36>
 <Images/CantorLawnPNG/CantorLawnPNG-37.png, id=1870, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-37.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-37.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-37.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-37.png> <a2,fr37>
 <Images/CantorLawnPNG/CantorLawnPNG-38.png, id=1881, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-38.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-38.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-38.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-38.png> <a2,fr38>
 <Images/CantorLawnPNG/CantorLawnPNG-39.png, id=1891, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-39.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-39.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-39.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-39.png> <a2,fr39>
 <Images/CantorLawnPNG/CantorLawnPNG-40.png, id=1902, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-40.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-40.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-40.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-40.png>
 <a2,fr40>
@@ -2840,49 +2855,49 @@ ut line 124.
 File: Images/CantorLawnPNG/CantorLawnPNG-41.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-41.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-41.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-41.png> <a2,fr41>
 <Images/CantorLawnPNG/CantorLawnPNG-42.png, id=1923, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-42.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-42.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-42.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-42.png> <a2,fr42>
 <Images/CantorLawnPNG/CantorLawnPNG-43.png, id=1933, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-43.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-43.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-43.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-43.png> <a2,fr43>
 <Images/CantorLawnPNG/CantorLawnPNG-44.png, id=1943, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-44.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-44.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-44.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-44.png> <a2,fr44>
 <Images/CantorLawnPNG/CantorLawnPNG-45.png, id=1953, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-45.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-45.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-45.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-45.png> <a2,fr45>
 <Images/CantorLawnPNG/CantorLawnPNG-46.png, id=1963, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-46.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-46.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-46.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-46.png> <a2,fr46>
 <Images/CantorLawnPNG/CantorLawnPNG-47.png, id=1973, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-47.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-47.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-47.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-47.png>
 <a2,fr47>
@@ -2890,49 +2905,49 @@ ut line 124.
 File: Images/CantorLawnPNG/CantorLawnPNG-48.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-48.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-48.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-48.png> <a2,fr48>
 <Images/CantorLawnPNG/CantorLawnPNG-49.png, id=1994, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-49.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-49.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-49.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-49.png> <a2,fr49>
 <Images/CantorLawnPNG/CantorLawnPNG-50.png, id=2005, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-50.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-50.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-50.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-50.png> <a2,fr50>
 <Images/CantorLawnPNG/CantorLawnPNG-51.png, id=2015, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-51.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-51.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-51.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-51.png> <a2,fr51>
 <Images/CantorLawnPNG/CantorLawnPNG-52.png, id=2026, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-52.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-52.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-52.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-52.png> <a2,fr52>
 <Images/CantorLawnPNG/CantorLawnPNG-53.png, id=2036, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-53.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-53.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-53.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-53.png> <a2,fr53>
 <Images/CantorLawnPNG/CantorLawnPNG-54.png, id=2046, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-54.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-54.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-54.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-54.png>
 <a2,fr54>
@@ -2940,51 +2955,51 @@ ut line 124.
 File: Images/CantorLawnPNG/CantorLawnPNG-55.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-55.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-55.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-55.png> <a2,fr55>
 <Images/CantorLawnPNG/CantorLawnPNG-56.png, id=2066, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-56.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-56.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-56.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-56.png> <a2,fr56>
 <Images/CantorLawnPNG/CantorLawnPNG-57.png, id=2076, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-57.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-57.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-57.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-57.png> <a2,fr57>
 <Images/CantorLawnPNG/CantorLawnPNG-58.png, id=2087, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-58.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-58.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-58.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-58.png> <a2,fr58>
 <Images/CantorLawnPNG/CantorLawnPNG-59.png, id=2097, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-59.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-59.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-59.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-59.png> <a2,fr59>
 <Images/CantorLawnPNG/CantorLawnPNG-60.png, id=2108, 1003.75pt x 1003.75pt>
 File: Images/CantorLawnPNG/CantorLawnPNG-60.png Graphic file (type png)
 <use Images/CantorLawnPNG/CantorLawnPNG-60.png>
 Package pdftex.def Info: Images/CantorLawnPNG/CantorLawnPNG-60.png  used on inp
-ut line 124.
+ut line 126.
 (pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
  <./Images/CantorLawnPNG/CantorLawnPNG-60.png> <a2,fr60>
-Overfull \vbox (13.56319pt too high) detected at line 124
+Overfull \vbox (13.56319pt too high) detected at line 126
  []
 
 File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
 <use Images/tcnj-logotype-400-200.jpg>
 Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 1
-24.
+26.
 (pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
 
 Overfull \hbox (26.29057pt too wide) has occurred while \output is active
@@ -3002,7 +3017,7 @@ Overfull \hbox (1.38991pt too wide) has occurred while \output is active
 File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
 <use Images/tcnj-logotype-400-200.jpg>
 Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 1
-58.
+60.
 (pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
 
 Overfull \hbox (26.29057pt too wide) has occurred while \output is active
@@ -3020,7 +3035,7 @@ Overfull \hbox (1.38991pt too wide) has occurred while \output is active
 File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
 <use Images/tcnj-logotype-400-200.jpg>
 Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 1
-58.
+60.
 (pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
 
 Overfull \hbox (26.29057pt too wide) has occurred while \output is active
@@ -3038,7 +3053,7 @@ Overfull \hbox (1.38991pt too wide) has occurred while \output is active
 File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
 <use Images/tcnj-logotype-400-200.jpg>
 Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 1
-58.
+60.
 (pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
 
 Overfull \hbox (26.29057pt too wide) has occurred while \output is active
@@ -3056,7 +3071,7 @@ Overfull \hbox (1.38991pt too wide) has occurred while \output is active
 File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
 <use Images/tcnj-logotype-400-200.jpg>
 Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 1
-58.
+60.
 (pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
 
 Overfull \hbox (26.29057pt too wide) has occurred while \output is active
@@ -3074,7 +3089,7 @@ Overfull \hbox (1.38991pt too wide) has occurred while \output is active
 File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
 <use Images/tcnj-logotype-400-200.jpg>
 Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 1
-58.
+60.
 (pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
 
 Overfull \hbox (26.29057pt too wide) has occurred while \output is active
@@ -3092,7 +3107,7 @@ Overfull \hbox (1.38991pt too wide) has occurred while \output is active
 File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
 <use Images/tcnj-logotype-400-200.jpg>
 Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 1
-58.
+60.
 (pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
 
 Overfull \hbox (26.29057pt too wide) has occurred while \output is active
@@ -3110,7 +3125,7 @@ Overfull \hbox (1.38991pt too wide) has occurred while \output is active
 File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
 <use Images/tcnj-logotype-400-200.jpg>
 Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 1
-58.
+60.
 (pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
 
 Overfull \hbox (26.29057pt too wide) has occurred while \output is active
@@ -3128,7 +3143,7 @@ Overfull \hbox (1.38991pt too wide) has occurred while \output is active
 File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
 <use Images/tcnj-logotype-400-200.jpg>
 Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 1
-58.
+60.
 (pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
 
 Overfull \hbox (26.29057pt too wide) has occurred while \output is active
@@ -3146,16 +3161,16 @@ Overfull \hbox (1.38991pt too wide) has occurred while \output is active
 <Images/VolumeBox.png, id=2200, 152.06813pt x 249.18094pt>
 File: Images/VolumeBox.png Graphic file (type png)
 <use Images/VolumeBox.png>
-Package pdftex.def Info: Images/VolumeBox.png  used on input line 188.
+Package pdftex.def Info: Images/VolumeBox.png  used on input line 190.
 (pdftex.def)             Requested size: 38.01694pt x 62.29507pt.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 188.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 190.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 188.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 190.
 File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
 <use Images/tcnj-logotype-400-200.jpg>
 Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 1
-88.
+90.
 (pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
 
 Overfull \hbox (26.29057pt too wide) has occurred while \output is active
@@ -3172,12 +3187,12 @@ Overfull \hbox (1.38991pt too wide) has occurred while \output is active
  <./Images/VolumeBox.png>]
 File: Images/VolumeBox.png Graphic file (type png)
 <use Images/VolumeBox.png>
-Package pdftex.def Info: Images/VolumeBox.png  used on input line 188.
+Package pdftex.def Info: Images/VolumeBox.png  used on input line 190.
 (pdftex.def)             Requested size: 38.01694pt x 62.29507pt.
 File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
 <use Images/tcnj-logotype-400-200.jpg>
 Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 1
-88.
+90.
 (pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
 
 Overfull \hbox (26.29057pt too wide) has occurred while \output is active
@@ -3194,12 +3209,12 @@ Overfull \hbox (1.38991pt too wide) has occurred while \output is active
 ]
 File: Images/VolumeBox.png Graphic file (type png)
 <use Images/VolumeBox.png>
-Package pdftex.def Info: Images/VolumeBox.png  used on input line 188.
+Package pdftex.def Info: Images/VolumeBox.png  used on input line 190.
 (pdftex.def)             Requested size: 38.01694pt x 62.29507pt.
 File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
 <use Images/tcnj-logotype-400-200.jpg>
 Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 1
-88.
+90.
 (pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
 
 Overfull \hbox (26.29057pt too wide) has occurred while \output is active
@@ -3216,12 +3231,12 @@ Overfull \hbox (1.38991pt too wide) has occurred while \output is active
 ]
 File: Images/VolumeBox.png Graphic file (type png)
 <use Images/VolumeBox.png>
-Package pdftex.def Info: Images/VolumeBox.png  used on input line 188.
+Package pdftex.def Info: Images/VolumeBox.png  used on input line 190.
 (pdftex.def)             Requested size: 38.01694pt x 62.29507pt.
 File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
 <use Images/tcnj-logotype-400-200.jpg>
 Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 1
-88.
+90.
 (pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
 
 Overfull \hbox (26.29057pt too wide) has occurred while \output is active
@@ -3236,14 +3251,10 @@ Overfull \hbox (1.38991pt too wide) has occurred while \output is active
 [28
 
 ]
-Overfull \hbox (14.72784pt too wide) detected at line 214
-[]
- []
-
 File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
 <use Images/tcnj-logotype-400-200.jpg>
 Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 2
-14.
+04.
 (pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
 
 Overfull \hbox (26.29057pt too wide) has occurred while \output is active
@@ -3258,14 +3269,10 @@ Overfull \hbox (1.38991pt too wide) has occurred while \output is active
 [29
 
 ]
-Overfull \hbox (14.72784pt too wide) detected at line 214
-[]
- []
-
 File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
 <use Images/tcnj-logotype-400-200.jpg>
 Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 2
-14.
+04.
 (pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
 
 Overfull \hbox (26.29057pt too wide) has occurred while \output is active
@@ -3280,14 +3287,10 @@ Overfull \hbox (1.38991pt too wide) has occurred while \output is active
 [30
 
 ]
-Overfull \hbox (14.72784pt too wide) detected at line 214
-[]
- []
-
 File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
 <use Images/tcnj-logotype-400-200.jpg>
 Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 2
-14.
+16.
 (pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
 
 Overfull \hbox (26.29057pt too wide) has occurred while \output is active
@@ -3302,14 +3305,570 @@ Overfull \hbox (1.38991pt too wide) has occurred while \output is active
 [31
 
 ]
-Overfull \hbox (14.72784pt too wide) detected at line 214
-[]
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-0.png, id=2259, 1003.75pt x 100
+3.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-0.png Graphic file (type p
+ng)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-0.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-0.png  
+used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-0.png> <a3,fr0>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-1.png, id=2269, 1003.75pt x 100
+3.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-1.png Graphic file (type p
+ng)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-1.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-1.png  
+used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-1.png> <a3,fr1>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-2.png, id=2280, 1003.75pt x 100
+3.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-2.png Graphic file (type p
+ng)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-2.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-2.png  
+used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-2.png> <a3,fr2>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-3.png, id=2291, 1003.75pt x 100
+3.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-3.png Graphic file (type p
+ng)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-3.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-3.png  
+used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-3.png> <a3,fr3>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-4.png, id=2302, 1003.75pt x 100
+3.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-4.png Graphic file (type p
+ng)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-4.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-4.png  
+used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-4.png> <a3,fr4>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-5.png, id=2313, 1003.75pt x 100
+3.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-5.png Graphic file (type p
+ng)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-5.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-5.png  
+used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-5.png>
+<a3,fr5>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-6.png, id=2324, 1003.75pt x 100
+3.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-6.png Graphic file (type p
+ng)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-6.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-6.png  
+used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-6.png> <a3,fr6>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-7.png, id=2335, 1003.75pt x 100
+3.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-7.png Graphic file (type p
+ng)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-7.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-7.png  
+used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-7.png> <a3,fr7>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-8.png, id=2346, 1003.75pt x 100
+3.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-8.png Graphic file (type p
+ng)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-8.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-8.png  
+used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-8.png> <a3,fr8>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-9.png, id=2357, 1003.75pt x 100
+3.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-9.png Graphic file (type p
+ng)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-9.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-9.png  
+used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-9.png> <a3,fr9>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-10.png, id=2368, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-10.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-10.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-10.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-10.png> <a3,fr10>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-11.png, id=2379, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-11.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-11.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-11.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-11.png> <a3,fr11>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-12.png, id=2390, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-12.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-12.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-12.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-12.png>
+<a3,fr12>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-13.png, id=2401, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-13.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-13.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-13.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-13.png> <a3,fr13>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-14.png, id=2412, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-14.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-14.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-14.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-14.png> <a3,fr14>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-15.png, id=2423, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-15.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-15.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-15.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-15.png> <a3,fr15>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-16.png, id=2434, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-16.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-16.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-16.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-16.png> <a3,fr16>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-17.png, id=2445, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-17.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-17.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-17.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-17.png> <a3,fr17>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-18.png, id=2456, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-18.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-18.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-18.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-18.png> <a3,fr18>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-19.png, id=2467, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-19.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-19.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-19.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-19.png> <a3,fr19>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-20.png, id=2478, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-20.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-20.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-20.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-20.png>
+<a3,fr20>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-21.png, id=2489, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-21.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-21.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-21.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-21.png> <a3,fr21>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-22.png, id=2500, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-22.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-22.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-22.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-22.png> <a3,fr22>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-23.png, id=2511, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-23.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-23.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-23.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-23.png> <a3,fr23>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-24.png, id=2522, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-24.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-24.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-24.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-24.png> <a3,fr24>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-25.png, id=2533, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-25.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-25.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-25.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-25.png> <a3,fr25>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-26.png, id=2544, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-26.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-26.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-26.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-26.png> <a3,fr26>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-27.png, id=2555, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-27.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-27.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-27.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-27.png> <a3,fr27>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-28.png, id=2566, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-28.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-28.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-28.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-28.png>
+<a3,fr28>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-29.png, id=2577, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-29.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-29.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-29.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-29.png> <a3,fr29>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-30.png, id=2588, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-30.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-30.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-30.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-30.png> <a3,fr30>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-31.png, id=2599, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-31.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-31.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-31.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-31.png> <a3,fr31>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-32.png, id=2610, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-32.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-32.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-32.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-32.png> <a3,fr32>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-33.png, id=2621, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-33.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-33.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-33.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-33.png> <a3,fr33>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-34.png, id=2632, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-34.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-34.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-34.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-34.png> <a3,fr34>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-35.png, id=2643, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-35.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-35.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-35.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-35.png> <a3,fr35>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-36.png, id=2654, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-36.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-36.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-36.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-36.png>
+<a3,fr36>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-37.png, id=2665, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-37.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-37.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-37.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-37.png> <a3,fr37>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-38.png, id=2676, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-38.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-38.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-38.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-38.png> <a3,fr38>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-39.png, id=2687, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-39.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-39.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-39.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-39.png> <a3,fr39>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-40.png, id=2698, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-40.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-40.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-40.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-40.png> <a3,fr40>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-41.png, id=2709, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-41.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-41.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-41.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-41.png> <a3,fr41>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-42.png, id=2720, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-42.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-42.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-42.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-42.png> <a3,fr42>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-43.png, id=2731, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-43.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-43.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-43.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-43.png> <a3,fr43>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-44.png, id=2742, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-44.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-44.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-44.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-44.png>
+<a3,fr44>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-45.png, id=2753, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-45.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-45.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-45.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-45.png> <a3,fr45>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-46.png, id=2764, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-46.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-46.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-46.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-46.png> <a3,fr46>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-47.png, id=2775, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-47.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-47.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-47.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-47.png> <a3,fr47>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-48.png, id=2786, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-48.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-48.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-48.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-48.png> <a3,fr48>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-49.png, id=2797, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-49.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-49.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-49.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-49.png> <a3,fr49>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-50.png, id=2808, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-50.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-50.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-50.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-50.png> <a3,fr50>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-51.png, id=2819, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-51.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-51.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-51.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-51.png> <a3,fr51>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-52.png, id=2830, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-52.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-52.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-52.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-52.png>
+<a3,fr52>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-53.png, id=2841, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-53.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-53.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-53.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-53.png> <a3,fr53>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-54.png, id=2852, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-54.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-54.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-54.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-54.png> <a3,fr54>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-55.png, id=2863, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-55.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-55.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-55.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-55.png> <a3,fr55>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-56.png, id=2874, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-56.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-56.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-56.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-56.png> <a3,fr56>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-57.png, id=2885, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-57.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-57.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-57.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-57.png> <a3,fr57>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-58.png, id=2896, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-58.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-58.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-58.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-58.png> <a3,fr58>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-59.png, id=2907, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-59.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-59.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-59.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-59.png> <a3,fr59>
+<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-60.png, id=2918, 1003.75pt x 10
+03.75pt>
+File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-60.png Graphic file (type 
+png)
+<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-60.png>
+Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-60.png 
+ used on input line 223.
+(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
+ <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-60.png>
+<a3,fr60>
+Overfull \vbox (13.56319pt too high) detected at line 223
  []
 
 File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
 <use Images/tcnj-logotype-400-200.jpg>
 Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 2
-14.
+23.
 (pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
 
 Overfull \hbox (26.29057pt too wide) has occurred while \output is active
@@ -3327,7 +3886,7 @@ Overfull \hbox (1.38991pt too wide) has occurred while \output is active
 File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
 <use Images/tcnj-logotype-400-200.jpg>
 Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 2
-29.
+43.
 (pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
 
 Overfull \hbox (26.29057pt too wide) has occurred while \output is active
@@ -3345,7 +3904,7 @@ Overfull \hbox (1.38991pt too wide) has occurred while \output is active
 File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
 <use Images/tcnj-logotype-400-200.jpg>
 Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 2
-29.
+43.
 (pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
 
 Overfull \hbox (26.29057pt too wide) has occurred while \output is active
@@ -3363,7 +3922,7 @@ Overfull \hbox (1.38991pt too wide) has occurred while \output is active
 File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
 <use Images/tcnj-logotype-400-200.jpg>
 Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 2
-39.
+43.
 (pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
 
 Overfull \hbox (26.29057pt too wide) has occurred while \output is active
@@ -3378,570 +3937,10 @@ Overfull \hbox (1.38991pt too wide) has occurred while \output is active
 [35
 
 ]
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-0.png, id=2287, 1003.75pt x 100
-3.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-0.png Graphic file (type p
-ng)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-0.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-0.png  
-used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-0.png> <a3,fr0>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-1.png, id=2297, 1003.75pt x 100
-3.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-1.png Graphic file (type p
-ng)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-1.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-1.png  
-used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-1.png> <a3,fr1>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-2.png, id=2308, 1003.75pt x 100
-3.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-2.png Graphic file (type p
-ng)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-2.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-2.png  
-used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-2.png> <a3,fr2>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-3.png, id=2319, 1003.75pt x 100
-3.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-3.png Graphic file (type p
-ng)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-3.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-3.png  
-used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-3.png> <a3,fr3>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-4.png, id=2330, 1003.75pt x 100
-3.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-4.png Graphic file (type p
-ng)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-4.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-4.png  
-used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-4.png> <a3,fr4>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-5.png, id=2341, 1003.75pt x 100
-3.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-5.png Graphic file (type p
-ng)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-5.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-5.png  
-used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-5.png>
-<a3,fr5>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-6.png, id=2352, 1003.75pt x 100
-3.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-6.png Graphic file (type p
-ng)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-6.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-6.png  
-used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-6.png> <a3,fr6>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-7.png, id=2363, 1003.75pt x 100
-3.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-7.png Graphic file (type p
-ng)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-7.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-7.png  
-used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-7.png> <a3,fr7>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-8.png, id=2374, 1003.75pt x 100
-3.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-8.png Graphic file (type p
-ng)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-8.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-8.png  
-used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-8.png> <a3,fr8>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-9.png, id=2385, 1003.75pt x 100
-3.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-9.png Graphic file (type p
-ng)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-9.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-9.png  
-used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-9.png> <a3,fr9>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-10.png, id=2396, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-10.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-10.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-10.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-10.png> <a3,fr10>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-11.png, id=2407, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-11.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-11.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-11.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-11.png> <a3,fr11>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-12.png, id=2418, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-12.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-12.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-12.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-12.png>
-<a3,fr12>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-13.png, id=2429, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-13.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-13.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-13.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-13.png> <a3,fr13>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-14.png, id=2440, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-14.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-14.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-14.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-14.png> <a3,fr14>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-15.png, id=2451, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-15.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-15.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-15.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-15.png> <a3,fr15>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-16.png, id=2462, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-16.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-16.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-16.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-16.png> <a3,fr16>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-17.png, id=2473, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-17.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-17.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-17.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-17.png> <a3,fr17>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-18.png, id=2484, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-18.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-18.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-18.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-18.png> <a3,fr18>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-19.png, id=2495, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-19.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-19.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-19.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-19.png> <a3,fr19>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-20.png, id=2506, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-20.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-20.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-20.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-20.png>
-<a3,fr20>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-21.png, id=2517, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-21.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-21.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-21.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-21.png> <a3,fr21>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-22.png, id=2528, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-22.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-22.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-22.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-22.png> <a3,fr22>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-23.png, id=2539, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-23.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-23.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-23.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-23.png> <a3,fr23>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-24.png, id=2550, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-24.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-24.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-24.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-24.png> <a3,fr24>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-25.png, id=2561, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-25.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-25.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-25.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-25.png> <a3,fr25>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-26.png, id=2572, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-26.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-26.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-26.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-26.png> <a3,fr26>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-27.png, id=2583, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-27.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-27.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-27.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-27.png> <a3,fr27>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-28.png, id=2594, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-28.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-28.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-28.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-28.png>
-<a3,fr28>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-29.png, id=2605, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-29.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-29.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-29.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-29.png> <a3,fr29>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-30.png, id=2616, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-30.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-30.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-30.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-30.png> <a3,fr30>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-31.png, id=2627, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-31.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-31.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-31.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-31.png> <a3,fr31>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-32.png, id=2638, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-32.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-32.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-32.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-32.png> <a3,fr32>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-33.png, id=2649, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-33.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-33.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-33.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-33.png> <a3,fr33>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-34.png, id=2660, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-34.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-34.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-34.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-34.png> <a3,fr34>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-35.png, id=2671, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-35.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-35.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-35.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-35.png> <a3,fr35>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-36.png, id=2682, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-36.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-36.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-36.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-36.png>
-<a3,fr36>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-37.png, id=2693, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-37.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-37.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-37.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-37.png> <a3,fr37>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-38.png, id=2704, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-38.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-38.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-38.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-38.png> <a3,fr38>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-39.png, id=2715, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-39.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-39.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-39.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-39.png> <a3,fr39>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-40.png, id=2726, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-40.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-40.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-40.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-40.png> <a3,fr40>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-41.png, id=2737, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-41.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-41.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-41.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-41.png> <a3,fr41>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-42.png, id=2748, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-42.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-42.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-42.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-42.png> <a3,fr42>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-43.png, id=2759, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-43.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-43.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-43.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-43.png> <a3,fr43>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-44.png, id=2770, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-44.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-44.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-44.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-44.png>
-<a3,fr44>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-45.png, id=2781, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-45.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-45.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-45.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-45.png> <a3,fr45>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-46.png, id=2792, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-46.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-46.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-46.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-46.png> <a3,fr46>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-47.png, id=2803, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-47.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-47.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-47.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-47.png> <a3,fr47>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-48.png, id=2814, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-48.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-48.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-48.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-48.png> <a3,fr48>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-49.png, id=2825, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-49.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-49.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-49.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-49.png> <a3,fr49>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-50.png, id=2836, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-50.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-50.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-50.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-50.png> <a3,fr50>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-51.png, id=2847, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-51.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-51.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-51.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-51.png> <a3,fr51>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-52.png, id=2858, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-52.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-52.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-52.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-52.png>
-<a3,fr52>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-53.png, id=2869, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-53.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-53.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-53.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-53.png> <a3,fr53>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-54.png, id=2880, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-54.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-54.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-54.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-54.png> <a3,fr54>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-55.png, id=2891, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-55.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-55.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-55.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-55.png> <a3,fr55>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-56.png, id=2902, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-56.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-56.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-56.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-56.png> <a3,fr56>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-57.png, id=2913, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-57.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-57.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-57.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-57.png> <a3,fr57>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-58.png, id=2924, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-58.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-58.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-58.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-58.png> <a3,fr58>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-59.png, id=2935, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-59.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-59.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-59.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-59.png> <a3,fr59>
-<Images/CantorLawnVolumePNG/CantorLawnVolumePNG-60.png, id=2946, 1003.75pt x 10
-03.75pt>
-File: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-60.png Graphic file (type 
-png)
-<use Images/CantorLawnVolumePNG/CantorLawnVolumePNG-60.png>
-Package pdftex.def Info: Images/CantorLawnVolumePNG/CantorLawnVolumePNG-60.png 
- used on input line 246.
-(pdftex.def)             Requested size: 1003.74756pt x 1003.74756pt.
- <./Images/CantorLawnVolumePNG/CantorLawnVolumePNG-60.png>
-<a3,fr60>
-Overfull \vbox (13.56319pt too high) detected at line 246
- []
-
 File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
 <use Images/tcnj-logotype-400-200.jpg>
 Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 2
-46.
+64.
 (pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
 
 Overfull \hbox (26.29057pt too wide) has occurred while \output is active
@@ -3959,7 +3958,7 @@ Overfull \hbox (1.38991pt too wide) has occurred while \output is active
 File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
 <use Images/tcnj-logotype-400-200.jpg>
 Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 2
-65.
+64.
 (pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
 
 Overfull \hbox (26.29057pt too wide) has occurred while \output is active
@@ -3977,7 +3976,7 @@ Overfull \hbox (1.38991pt too wide) has occurred while \output is active
 File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
 <use Images/tcnj-logotype-400-200.jpg>
 Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 2
-65.
+64.
 (pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
 
 Overfull \hbox (26.29057pt too wide) has occurred while \output is active
@@ -3995,7 +3994,7 @@ Overfull \hbox (1.38991pt too wide) has occurred while \output is active
 File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
 <use Images/tcnj-logotype-400-200.jpg>
 Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 2
-65.
+64.
 (pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
 
 Overfull \hbox (26.29057pt too wide) has occurred while \output is active
@@ -4012,8 +4011,8 @@ Overfull \hbox (1.38991pt too wide) has occurred while \output is active
 ]
 File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
 <use Images/tcnj-logotype-400-200.jpg>
-Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 3
-74.
+Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 2
+98.
 (pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
 
 Overfull \hbox (26.29057pt too wide) has occurred while \output is active
@@ -4027,11 +4026,11 @@ Overfull \hbox (1.38991pt too wide) has occurred while \output is active
 
 [40
 
- <C:/Program Files/MiKTeX 2.9/tex/latex/beamer/beamericonarticle.pdf>]
+]
 File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
 <use Images/tcnj-logotype-400-200.jpg>
-Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 3
-74.
+Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 2
+98.
 (pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
 
 Overfull \hbox (26.29057pt too wide) has occurred while \output is active
@@ -4045,12 +4044,11 @@ Overfull \hbox (1.38991pt too wide) has occurred while \output is active
 
 [41
 
-
 ]
 File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
 <use Images/tcnj-logotype-400-200.jpg>
-Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 3
-74.
+Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 2
+98.
 (pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
 
 Overfull \hbox (26.29057pt too wide) has occurred while \output is active
@@ -4064,12 +4062,11 @@ Overfull \hbox (1.38991pt too wide) has occurred while \output is active
 
 [42
 
-
 ]
 File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
 <use Images/tcnj-logotype-400-200.jpg>
-Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 3
-74.
+Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 2
+98.
 (pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
 
 Overfull \hbox (26.29057pt too wide) has occurred while \output is active
@@ -4083,12 +4080,11 @@ Overfull \hbox (1.38991pt too wide) has occurred while \output is active
 
 [43
 
-
 ]
 File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
 <use Images/tcnj-logotype-400-200.jpg>
-Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 3
-74.
+Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 2
+98.
 (pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
 
 Overfull \hbox (26.29057pt too wide) has occurred while \output is active
@@ -4101,6 +4097,299 @@ Overfull \hbox (1.38991pt too wide) has occurred while \output is active
  []
 
 [44
+
+]
+File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
+<use Images/tcnj-logotype-400-200.jpg>
+Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 2
+98.
+(pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
+
+Overfull \hbox (26.29057pt too wide) has occurred while \output is active
+ [][]    
+ []
+
+
+Overfull \hbox (1.38991pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[45
+
+]
+File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
+<use Images/tcnj-logotype-400-200.jpg>
+Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 2
+98.
+(pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
+
+Overfull \hbox (26.29057pt too wide) has occurred while \output is active
+ [][]    
+ []
+
+
+Overfull \hbox (1.38991pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[46
+
+]
+File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
+<use Images/tcnj-logotype-400-200.jpg>
+Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 2
+98.
+(pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
+
+Overfull \hbox (26.29057pt too wide) has occurred while \output is active
+ [][]    
+ []
+
+
+Overfull \hbox (1.38991pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[47
+
+]
+<Images/cantorLawnVolumeCalculation.png, id=3061, 813.79031pt x 608.2725pt>
+File: Images/cantorLawnVolumeCalculation.png Graphic file (type png)
+<use Images/cantorLawnVolumeCalculation.png>
+Package pdftex.def Info: Images/cantorLawnVolumeCalculation.png  used on input 
+line 304.
+(pdftex.def)             Requested size: 244.13898pt x 182.48315pt.
+File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
+<use Images/tcnj-logotype-400-200.jpg>
+Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 3
+04.
+(pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
+
+Overfull \hbox (26.29057pt too wide) has occurred while \output is active
+ [][]    
+ []
+
+
+Overfull \hbox (1.38991pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[48
+
+ <./Images/cantorLawnVolumeCalculation.png>]
+Overfull \hbox (26.40364pt too wide) detected at line 318
+[]
+ []
+
+File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
+<use Images/tcnj-logotype-400-200.jpg>
+Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 3
+18.
+(pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
+
+Overfull \hbox (26.29057pt too wide) has occurred while \output is active
+ [][]    
+ []
+
+
+Overfull \hbox (1.38991pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[49
+
+]
+Overfull \hbox (26.40364pt too wide) detected at line 318
+[]
+ []
+
+File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
+<use Images/tcnj-logotype-400-200.jpg>
+Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 3
+18.
+(pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
+
+Overfull \hbox (26.29057pt too wide) has occurred while \output is active
+ [][]    
+ []
+
+
+Overfull \hbox (1.38991pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[50
+
+]
+File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
+<use Images/tcnj-logotype-400-200.jpg>
+Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 3
+34.
+(pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
+
+Overfull \hbox (26.29057pt too wide) has occurred while \output is active
+ [][]    
+ []
+
+
+Overfull \hbox (1.38991pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[51
+
+]
+File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
+<use Images/tcnj-logotype-400-200.jpg>
+Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 3
+34.
+(pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
+
+Overfull \hbox (26.29057pt too wide) has occurred while \output is active
+ [][]    
+ []
+
+
+Overfull \hbox (1.38991pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[52
+
+]
+File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
+<use Images/tcnj-logotype-400-200.jpg>
+Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 3
+34.
+(pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
+
+Overfull \hbox (26.29057pt too wide) has occurred while \output is active
+ [][]    
+ []
+
+
+Overfull \hbox (1.38991pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[53
+
+]
+<Images/CantorLawnVolumesPlot.png, id=3106, 716.1957pt x 437.9562pt>
+File: Images/CantorLawnVolumesPlot.png Graphic file (type png)
+<use Images/CantorLawnVolumesPlot.png>
+Package pdftex.def Info: Images/CantorLawnVolumesPlot.png  used on input line 3
+40.
+(pdftex.def)             Requested size: 286.4732pt x 175.17937pt.
+File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
+<use Images/tcnj-logotype-400-200.jpg>
+Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 3
+40.
+(pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
+
+Overfull \hbox (26.29057pt too wide) has occurred while \output is active
+ [][]    
+ []
+
+
+Overfull \hbox (1.38991pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[54
+
+ <./Images/CantorLawnVolumesPlot.png>]
+File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
+<use Images/tcnj-logotype-400-200.jpg>
+Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 4
+49.
+(pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
+
+Overfull \hbox (26.29057pt too wide) has occurred while \output is active
+ [][]    
+ []
+
+
+Overfull \hbox (1.38991pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[55
+
+ <C:/Program Files/MiKTeX 2.9/tex/latex/beamer/beamericonarticle.pdf>]
+File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
+<use Images/tcnj-logotype-400-200.jpg>
+Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 4
+49.
+(pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
+
+Overfull \hbox (26.29057pt too wide) has occurred while \output is active
+ [][]    
+ []
+
+
+Overfull \hbox (1.38991pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[56
+
+
+]
+File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
+<use Images/tcnj-logotype-400-200.jpg>
+Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 4
+49.
+(pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
+
+Overfull \hbox (26.29057pt too wide) has occurred while \output is active
+ [][]    
+ []
+
+
+Overfull \hbox (1.38991pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[57
+
+
+]
+File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
+<use Images/tcnj-logotype-400-200.jpg>
+Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 4
+49.
+(pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
+
+Overfull \hbox (26.29057pt too wide) has occurred while \output is active
+ [][]    
+ []
+
+
+Overfull \hbox (1.38991pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[58
+
+
+]
+File: Images/tcnj-logotype-400-200.jpg Graphic file (type jpg)
+<use Images/tcnj-logotype-400-200.jpg>
+Package pdftex.def Info: Images/tcnj-logotype-400-200.jpg  used on input line 4
+49.
+(pdftex.def)             Requested size: 40.15234pt x 20.07617pt.
+
+Overfull \hbox (26.29057pt too wide) has occurred while \output is active
+ [][]    
+ []
+
+
+Overfull \hbox (1.38991pt too wide) has occurred while \output is active
+[][] 
+ []
+
+[59
 
 
 ]
@@ -4120,19 +4409,19 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 380.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 380.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 455.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 455.
 (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 380.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 380.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 455.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 455.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 32649 strings out of 480934
- 708663 string characters out of 2909682
- 995062 words of memory out of 3000000
- 47476 multiletter control sequences out of 15000+200000
+ 33148 strings out of 480934
+ 716147 string characters out of 2909682
+ 1005503 words of memory out of 3000000
+ 47930 multiletter control sequences out of 15000+200000
  579989 words of font info for 80 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  65i,16n,87p,774b,508s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -4140,23 +4429,24 @@ Here is how much of TeX's memory you used:
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9
 /fonts/type1/public/amsfonts/cmextra/cmex9.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/symbols/msbm10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
-onts/symbols/msbm7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uh
-vb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/urw/zapfchan/uzcmi8a.pfb>
-Output written on main.pdf (44 pages, 1365287 bytes).
+/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/s
+ymbols/msbm10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symb
+ols/msbm7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/urw/zapfchan/uzcmi8a.pfb>
+Output written on main.pdf (59 pages, 2863654 bytes).
 PDF statistics:
- 3144 PDF objects out of 3580 (max. 8388607)
- 105 named destinations out of 1000 (max. 500000)
- 7215 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3265 PDF objects out of 3580 (max. 8388607)
+ 135 named destinations out of 1000 (max. 500000)
+ 7225 words of extra memory for PDF output out of 10000 (max. 10000000)
 
