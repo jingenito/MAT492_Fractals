@@ -127,21 +127,18 @@ The fractal string we studied the most in particular is the {\bf Cantor String}
 \begin{frame}{Fractal Lawn}
 
 	\begin{definition}
-	A {\bf fractal lawn} $\Om^2$ is the Cartesian product of two fractal strings $\Om^2=\Om_1\times\Om_2$.
+	A {\bf fractal lawn} $\Om \subset \R^2$ is the Cartesian product of two fractal strings $\Om=\Om_1\times\Om_2$.
 	\end{definition}
 	
 	\pause
-	\vspace{.2 in}
-	
-	The Cartesian product of two fractal strings is a bounded open subset of $\R^2$ since a fractal string is a bounded open subset of $\R$.
-	\pause
-	\vspace{.2 in}
-	
-$\Om_1 = \displaystyle\bigcup_{j = 1}^\infty\ell_j$, \quad $\Om_2 = \displaystyle\bigcup_{i = 1}^\infty \p_i$
-\pause
-\vspace{.2 in}
+	\vspace{0.2 in}
 
-$\ell_1 \geq \ell_2 \geq \ell_3 \geq \cdots \geq 0$, \quad $\p_1 \geq \p_2 \geq \p_3 \geq \cdots \geq 0$
+	\[ \displaystyle \SL_1 = \sum_{j \in \N} \ell_j \]
+	
+	\[ \displaystyle \SL_2 = \sum_{j \in \N} \p_j \]
+	\pause
+	
+	\[ \ell_1 \geq \ell_2 \geq \ell_3 \geq \cdots \geq 0 \], \quad \[ \p_1 \geq \p_2 \geq \p_3 \geq \cdots \geq 0 \]
 
 \end{frame}
 
@@ -154,35 +151,14 @@ $\ell_1 \geq \ell_2 \geq \ell_3 \geq \cdots \geq 0$, \quad $\p_1 \geq \p_2 \geq 
 
 \begin{frame}{Fractal Lawn Volume I}
 
-{\bf Inner-tubular neighborhood}:\quad $V(\epsilon) = \text{vol}_2\{x \in \Om^2\ |\ d(x,\partial\Om^2) < \epsilon\}$
-%we can use the same formula for the inner tubular neighborhood, but the method of calculation changes, because the distance formula changes
-\pause 
-\begin{itemize}
-	\item $\partial\Om^2=(\partial\Om_1\times\Om_2)\cup(\Om_1\times\partial\Om_2)$
-\end{itemize}
+{\bf Inner-tubular neighborhood}:\quad $V(\epsilon) = \text{vol}_2\{x \in \Om\ |\ d(x,\partial\Om) < \epsilon\}$
 \pause
-\vspace{.2in}
+\vspace{0.2in}
 
-{\bf Counting function}: Counts up to the critical length for any $x > 0$
-\pause
+{\bf Useful Definition}:
 \begin{itemize}
-	\item $\displaystyle N_{\Omega_i}(x) = \sum_{j: \ell_j \geq x}1$
-\end{itemize}
-\pause
-\vspace{.2in}
-
-{\bf Useful Definitions}:
-\pause
-\begin{itemize}
-	\item $\displaystyle \SL_i=\sum_{j \in \N }\ell_j$
-	\pause
-	\item $\displaystyle \W_i(x)=\sum_{j: \ell_j < x}\ell_j$
-	\pause
 	\item $\displaystyle \sum_{j = 1}^{N_{\Om_i}(x)}\ell_j=\SL_i - \W_i(x)$
-	%this line should come after the previous with a pause
 \end{itemize}
-
-%$D_{\mathcal{L}} = \inf\{\alpha \geq 0\ |\ V(\epsilon) = O(\epsilon^{2 - \alpha})\text{ as }\epsilon \to 0^+\}$
 
 \end{frame}
 
@@ -251,26 +227,25 @@ $V(\epsilon)=V_{partial}(\epsilon) + V_{full}(\epsilon) - V_{double}(\epsilon)$
 \begin{frame}{Dimension of Fractal Lawn I}
 
 \begin{definition}
-	The {\bf Dimension} $D_{\Om^2} = \inf\{\alpha \geq 0\ |\ V(\epsilon) = O(\epsilon^{2 - \alpha})\text{ as }\epsilon \to 0^+\}$
+	The {\bf Dimension} $D_{\Om} = \inf\{\alpha \geq 0\ |\ V(\epsilon) = O(\epsilon^{2 - \alpha})\text{ as }\epsilon \to 0^+\}$
 \end{definition}
 \pause
 \begin{itemize}
-	\item Since $\Om^2 \subset \R^2$, V is required to remain bounded by $\epsilon^{2-\alpha} \text{ as }\epsilon \to 0^+ $ rather than the 1D case   
+	\item Since $\Om \subset \R^2$, V is required to remain bounded by $\epsilon^{2-\alpha} \text{ as }\epsilon \to 0^+ $ rather than the 1D case   
 \end{itemize}
 \pause
 \vspace{0.2in}
 
-\begin{align*}
-V(\epsilon) &= \SL_1 V_2 + \SL_2 V_1 - V_1 V_2 \\
-\lim_{\epsilon \to 0^+} V(\epsilon) &= O(\epsilon^{1-D_{\Om_2}}) + O(\epsilon^{1-D_{\Om_1}}) + O(\epsilon^{2-(D_{\Om_1} + D_{\Om_2})}) \\ \\
-\lim_{\epsilon \to 0^+} \frac{V(\epsilon)}{\epsilon^{2-\alpha}} &= O(\epsilon^{1-D_{\Om_2}} \epsilon^{2-\alpha}) + O(\epsilon^{1-D_{\Om_1}} \epsilon^{2-\alpha}) + O(\epsilon^{2-(D_{\Om_1} + D_{\Om_2})} \epsilon^{2-\alpha})
-\end{align*}
-
+	\[ V(\epsilon) &= \SL_1 V_2 + \SL_2 V_1 - V_1 V_2 \]
+	\pause
+	
+	\[ \lim_{\epsilon \to 0^+} V(\epsilon) &= O(\epsilon^{1-D_{\Om_2}}) + O(\epsilon^{1-D_{\Om_1}}) + O(\epsilon^{2-(D_{\Om_1} + D_{\Om_2})})  \]
+	
 \end{frame}
 
 \begin{frame}{Dimension of Fractal Lawn II}
 
-$\lim_{\epsilon \to 0^+} \frac{V(\epsilon)}{\epsilon^{2-\alpha}} = O(\epsilon^{1 - \alpha (1+D_{\Om_2})}) + O(\epsilon^{1 - \alpha (1+D_{\Om_1})}) + O(\epsilon^{\alpha - (D_{\Om_1} + D_{\Om_2})})$
+$\lim_{\epsilon \to 0^+} \frac{V(\epsilon)}{\epsilon^{2-\alpha}} = O(\epsilon^{\alpha - (1+D_{\Om_2})}) + O(\epsilon^{\alpha - (1+D_{\Om_1})}) + O(\epsilon^{\alpha - (D_{\Om_1} + D_{\Om_2})})$
 \pause
 
 \[ 
@@ -279,12 +254,7 @@ $\lim_{\epsilon \to 0^+} \frac{V(\epsilon)}{\epsilon^{2-\alpha}} = O(\epsilon^{1
 \pause
 
 \[ 
-\systeme*{\alpha \geq 1 + D_{\Om_1}, \alpha \geq 1 + D_{\Om_2}}
-\]
-\pause
-
-\[ 
-D_{\Om^2} = \text{max} \{ (1 + D_{\Om_1}), (1 + D_{\Om_2}) \}
+D_{\Om} = \text{max} \{ (1 + D_{\Om_1}), (1 + D_{\Om_2}) \}
 \]
 
 \end{frame}
@@ -295,10 +265,6 @@ What is the dimension of the Cantor Lawn? \\
 \pause
 \begin{itemize}
 \item Apply the volume formula for a {\bf fractal lawn} to the Cartesian product of 2 Cantor Strings.
-	\pause
-	\begin{itemize}
-	\item $D_{\Om} = \log_3 2 $
-	\end{itemize}
 \pause 
 
 \item $\Om^2 = \Om \times \Om $
@@ -308,11 +274,7 @@ What is the dimension of the Cantor Lawn? \\
 	\end{itemize}
 \pause
 
-\item $D_{\Om^2} = \text{max} \{ (1 + D_{\Om}), 2 \cdot D_{\Om} \}$
-	\pause
-	\begin{itemize}
-	\item $D_{\Om^2} = 1 + D_{\Om} $
-	\end{itemize}
+\item $D_{\Om^2} = 1 + D_{\Om} = \log_3 2 $
 \end{itemize}
 \pause
 
@@ -331,25 +293,21 @@ V(\epsilon)_{\Om^2} &= \SL V(\epsilon)_{\Om} + \SL V(\epsilon)_{\Om} - V(\epsilo
 	\end{align*}
 	\pause
 	
-	\[ 
-	\systeme*{1- log_3 2 - (2 - \alpha) \geq 0, 2- log_3 2 - (2 - \alpha) \geq 0, 2- log_3 4 - (2 - \alpha) \geq 0}
-	\]
-
 \end{frame}
 
 \begin{frame}{Dimension of the Cantor Lawn III}
 \[ 
-\systeme*{\alpha \geq 1 + log_3 2, \alpha \geq 1 + log_3 4}
+\systeme*{1- log_3 2 - (2 - \alpha) \geq 0, 2- log_3 2 - (2 - \alpha) \geq 0, 2- log_3 4 - (2 - \alpha) \geq 0}
 \]
 \pause
 
 \[ 
-D_{\Om^2} = \text{max} \{ (1 + log_3 2), log_3 4 \}
+D_{\Om} = \text{max} \{ (1 + log_3 2), log_3 4 \}
 \]
 \pause
 
 \[ 
-D_{\Om^2} = 1 + log_3 2
+D_{\Om} = 1 + log_3 2
 \]
 \end{frame}
 
