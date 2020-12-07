@@ -18,6 +18,3 @@
 *.toc
 *.out
 *.snm
-
-#getting rid of pdf files for merge conflicts
-*.pdf
